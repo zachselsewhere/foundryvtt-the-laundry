@@ -17,7 +17,8 @@ export function preloadTemplates() {
 
   // Named partials referenced as {{> laundry.skillRow}} etc.
   const partials = {
-    "laundry.skillRow": `${SYS}/partials/skill-row.hbs`
+    "laundry.skillRow": `${SYS}/partials/skill-row.hbs`,
+    "laundry.editor": `${SYS}/partials/editor.hbs`
   };
 
   return foundry.applications.handlebars.loadTemplates(paths)

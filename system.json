@@ -2,7 +2,7 @@
   "id": "the-laundry",
   "title": "The Laundry Roleplaying Game",
   "description": "<p>An unofficial, fan-made game system for <strong>The Laundry Roleplaying Game: Operative's Handbook</strong> by Cubicle 7, based on the Laundry Files novels by Charles Stross. Implements the C7d6 dice-pool ruleset: Body/Mind/Spirit Attributes, Skills with Training &amp; Focus, The Ladder, Toughness, Adrenaline, the Injury track, and Conditions.</p><p>This system is not affiliated with or endorsed by Cubicle 7 or Charles Stross. No copyrighted rules text or artwork is distributed with this system.</p>",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "compatibility": {
     "minimum": "14",
     "verified": "14",

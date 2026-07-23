@@ -12,19 +12,19 @@
       <div class="field wide"><label>Team / Project Assigned Name</label><input type="text" name="name" value="{{actor.name}}"></div>
 
       <div class="team-grid">
-        <div class="panel"><div class="panel-head">Team Members</div><div class="panel-body editor-box">{{editor enriched.members target="system.members" button=true editable=editable engine="prosemirror"}}</div></div>
-        <div class="panel"><div class="panel-head">Team Manager</div><div class="panel-body editor-box short">{{editor enriched.teamManager target="system.teamManager" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Team Members</div><div class="panel-body editor-box">{{> laundry.editor name="system.members" value=system.members enriched=enriched.members}}</div></div>
+        <div class="panel"><div class="panel-head">Team Manager</div><div class="panel-body editor-box short">{{> laundry.editor name="system.teamManager" value=system.teamManager enriched=enriched.teamManager}}</div></div>
 
-        <div class="panel"><div class="panel-head">Short-term KPIs</div><div class="panel-body editor-box">{{editor enriched.shortTermKPIs target="system.shortTermKPIs" button=true editable=editable engine="prosemirror"}}</div></div>
-        <div class="panel"><div class="panel-head">Budget</div><div class="panel-body editor-box short">{{editor enriched.budget target="system.budget" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Short-term KPIs</div><div class="panel-body editor-box">{{> laundry.editor name="system.shortTermKPIs" value=system.shortTermKPIs enriched=enriched.shortTermKPIs}}</div></div>
+        <div class="panel"><div class="panel-head">Budget</div><div class="panel-body editor-box short">{{> laundry.editor name="system.budget" value=system.budget enriched=enriched.budget}}</div></div>
 
-        <div class="panel"><div class="panel-head">Long-term KPIs</div><div class="panel-body editor-box">{{editor enriched.longTermKPIs target="system.longTermKPIs" button=true editable=editable engine="prosemirror"}}</div></div>
-        <div class="panel"><div class="panel-head">Team Resources</div><div class="panel-body editor-box">{{editor enriched.resources target="system.resources" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Long-term KPIs</div><div class="panel-body editor-box">{{> laundry.editor name="system.longTermKPIs" value=system.longTermKPIs enriched=enriched.longTermKPIs}}</div></div>
+        <div class="panel"><div class="panel-head">Team Resources</div><div class="panel-body editor-box">{{> laundry.editor name="system.resources" value=system.resources enriched=enriched.resources}}</div></div>
 
-        <div class="panel"><div class="panel-head">Known Allies</div><div class="panel-body editor-box">{{editor enriched.knownAllies target="system.knownAllies" button=true editable=editable engine="prosemirror"}}</div></div>
-        <div class="panel"><div class="panel-head">Rumours</div><div class="panel-body editor-box">{{editor enriched.rumours target="system.rumours" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Known Allies</div><div class="panel-body editor-box">{{> laundry.editor name="system.knownAllies" value=system.knownAllies enriched=enriched.knownAllies}}</div></div>
+        <div class="panel"><div class="panel-head">Rumours</div><div class="panel-body editor-box">{{> laundry.editor name="system.rumours" value=system.rumours enriched=enriched.rumours}}</div></div>
 
-        <div class="panel"><div class="panel-head">Known Enemies</div><div class="panel-body editor-box">{{editor enriched.knownEnemies target="system.knownEnemies" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Known Enemies</div><div class="panel-body editor-box">{{> laundry.editor name="system.knownEnemies" value=system.knownEnemies enriched=enriched.knownEnemies}}</div></div>
         <div class="panel spacer"></div>
       </div>
     </div>

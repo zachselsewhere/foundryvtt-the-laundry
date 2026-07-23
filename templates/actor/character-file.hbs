@@ -9,19 +9,19 @@
       </div>
       <div class="panel">
         <div class="panel-head">Next of Kin</div>
-        <div class="panel-body editor-box small">{{editor enriched.nextOfKin target="system.bio.nextOfKin" button=true editable=editable engine="prosemirror"}}</div>
+        <div class="panel-body editor-box small">{{> laundry.editor name="system.bio.nextOfKin" value=system.bio.nextOfKin enriched=enriched.nextOfKin}}</div>
       </div>
     </div>
 
     <div class="panel grow">
       <div class="panel-head">Personal History</div>
-      <div class="panel-body editor-box">{{editor enriched.personalHistory target="system.bio.personalHistory" button=true editable=editable engine="prosemirror"}}</div>
+      <div class="panel-body editor-box">{{> laundry.editor name="system.bio.personalHistory" value=system.bio.personalHistory enriched=enriched.personalHistory}}</div>
     </div>
 
     <div class="panel grow">
       <div class="panel-head">Possessions &amp; Equipment <a class="add-btn" data-action="createItem" data-type="equipment" data-tooltip="Add Equipment"><i class="fa-solid fa-plus"></i></a></div>
       <div class="panel-body">
-        <div class="editor-box short">{{editor enriched.possessions target="system.bio.possessions" button=true editable=editable engine="prosemirror"}}</div>
+        <div class="editor-box short">{{> laundry.editor name="system.bio.possessions" value=system.bio.possessions enriched=enriched.possessions}}</div>
         <ul class="entry-list">
           {{#each equipment as |e|}}
           <li class="entry" data-item-id="{{e.id}}">
@@ -42,18 +42,18 @@
   <div class="file-row file-row-three">
     <div class="panel">
       <div class="panel-head">Disciplinary Record</div>
-      <div class="panel-body editor-box">{{editor enriched.disciplinary target="system.bio.disciplinary" button=true editable=editable engine="prosemirror"}}</div>
+      <div class="panel-body editor-box">{{> laundry.editor name="system.bio.disciplinary" value=system.bio.disciplinary enriched=enriched.disciplinary}}</div>
     </div>
     <div class="panel">
       <div class="panel-head">Short-term / Long-term Goals</div>
       <div class="panel-body goals-split">
-        <div class="editor-box">{{editor enriched.shortTerm target="system.goals.shortTerm" button=true editable=editable engine="prosemirror"}}</div>
-        <div class="editor-box">{{editor enriched.longTerm target="system.goals.longTerm" button=true editable=editable engine="prosemirror"}}</div>
+        <div class="editor-box">{{> laundry.editor name="system.goals.shortTerm" value=system.goals.shortTerm enriched=enriched.shortTerm}}</div>
+        <div class="editor-box">{{> laundry.editor name="system.goals.longTerm" value=system.goals.longTerm enriched=enriched.longTerm}}</div>
       </div>
     </div>
     <div class="panel">
       <div class="panel-head">Training &amp; Certification</div>
-      <div class="panel-body editor-box">{{editor enriched.training target="system.bio.training" button=true editable=editable engine="prosemirror"}}</div>
+      <div class="panel-body editor-box">{{> laundry.editor name="system.bio.training" value=system.bio.training enriched=enriched.training}}</div>
     </div>
   </div>
 

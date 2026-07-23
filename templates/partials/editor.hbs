@@ -1,0 +1,8 @@
+{{!-- Rich-text field. Call with: {{> laundry.editor name="system.x" value=system.x enriched=enriched.x}}
+     `editable` is inherited from the sheet context. The <prose-mirror> element is a
+     self-contained web component, so its edit button works under ApplicationV2. --}}
+{{#if editable}}
+<prose-mirror name="{{name}}" button="true" editable="true" toggled="false" value="{{value}}">{{{enriched}}}</prose-mirror>
+{{else}}
+<div class="prose-mirror-readonly">{{{enriched}}}</div>
+{{/if}}

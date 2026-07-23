@@ -65,7 +65,7 @@
     <div class="form-group"><label>Range</label><input type="text" name="system.range" value="{{system.range}}"></div>
     <div class="form-group span2"><label>Duration</label><input type="text" name="system.duration" value="{{system.duration}}"></div>
   </div>
-  <div class="form-group full"><label>Effect</label><div class="editor-box">{{editor enrichedEffect target="system.effect" button=true editable=editable engine="prosemirror"}}</div></div>
+  <div class="form-group full"><label>Effect</label><div class="editor-box">{{> laundry.editor name="system.effect" value=system.effect enriched=enrichedEffect}}</div></div>
   {{/if}}
 
   {{#if (laundryEq item.type "itgear")}}
@@ -78,8 +78,8 @@
     <div class="form-group"><label>Range</label><input type="text" name="system.range" value="{{system.range}}"></div>
     <div class="form-group span2"><label>Duration</label><input type="text" name="system.duration" value="{{system.duration}}"></div>
   </div>
-  <div class="form-group full"><label>Effect</label><div class="editor-box">{{editor enrichedEffect target="system.effect" button=true editable=editable engine="prosemirror"}}</div></div>
+  <div class="form-group full"><label>Effect</label><div class="editor-box">{{> laundry.editor name="system.effect" value=system.effect enriched=enrichedEffect}}</div></div>
   {{/if}}
 
-  <div class="form-group full"><label>Description</label><div class="editor-box">{{editor enrichedDescription target="system.description" button=true editable=editable engine="prosemirror"}}</div></div>
+  <div class="form-group full"><label>Description</label><div class="editor-box">{{> laundry.editor name="system.description" value=system.description enriched=enrichedDescription}}</div></div>
 </section>
