@@ -1,0 +1,28 @@
+<section class="tab effects {{tabs.effects.cssClass}}" data-group="primary" data-tab="effects">
+  <div class="panel">
+    <div class="panel-head">Active Effects &amp; Conditions <a class="add-btn" data-action="createEffect" data-tooltip="Add Effect"><i class="fa-solid fa-plus"></i></a></div>
+    <div class="panel-body">
+      <table class="data-table effects-table">
+        <thead><tr><th>Effect</th><th>Source</th><th class="ctrl-col">Status</th><th class="ctrl-col"></th></tr></thead>
+        <tbody>
+          {{#each effects as |e|}}
+          <tr data-effect-id="{{e.id}}" class="{{#if e.disabled}}disabled{{/if}}">
+            <td><img class="entry-img" src="{{e.img}}" alt=""> {{e.name}}</td>
+            <td>{{#if e.parent.name}}{{e.parent.name}}{{else}}&mdash;{{/if}}</td>
+            <td class="row-controls">
+              <a data-action="toggleEffect" data-tooltip="Toggle">
+                {{#if e.disabled}}<i class="fa-regular fa-circle"></i>{{else}}<i class="fa-solid fa-circle-check"></i>{{/if}}
+              </a>
+            </td>
+            <td class="row-controls">
+              <a data-action="editEffect" data-tooltip="Edit"><i class="fa-solid fa-pen-to-square"></i></a>
+              <a data-action="deleteEffect" data-tooltip="Delete"><i class="fa-solid fa-trash"></i></a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      <p class="hint">Toggle Conditions (Blinded, Frightened, Terrified&hellip;) directly on a token via the status-effects HUD.</p>
+    </div>
+  </div>
+</section>

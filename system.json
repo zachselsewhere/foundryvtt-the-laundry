@@ -1,0 +1,82 @@
+{
+  "id": "the-laundry",
+  "title": "The Laundry Roleplaying Game",
+  "description": "<p>An unofficial, fan-made game system for <strong>The Laundry Roleplaying Game: Operative's Handbook</strong> by Cubicle 7, based on the Laundry Files novels by Charles Stross. Implements the C7d6 dice-pool ruleset: Body/Mind/Spirit Attributes, Skills with Training &amp; Focus, The Ladder, Toughness, Adrenaline, the Injury track, and Conditions.</p><p>This system is not affiliated with or endorsed by Cubicle 7 or Charles Stross. No copyrighted rules text or artwork is distributed with this system.</p>",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "The Laundry FoundryVTT System"
+    }
+  ],
+  "esmodules": [
+    "module/the-laundry.mjs"
+  ],
+  "styles": [
+    "styles/the-laundry.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": [
+          "description",
+          "goals.shortTerm",
+          "goals.longTerm",
+          "bio.nextOfKin",
+          "bio.personalHistory",
+          "bio.possessions",
+          "bio.disciplinary",
+          "bio.training"
+        ]
+      },
+      "npc": {
+        "htmlFields": [
+          "description",
+          "bio.personalHistory"
+        ]
+      },
+      "team": {
+        "htmlFields": [
+          "members",
+          "teamManager",
+          "budget",
+          "shortTermKPIs",
+          "longTermKPIs",
+          "resources",
+          "rumours",
+          "knownAllies",
+          "knownEnemies"
+        ]
+      }
+    },
+    "Item": {
+      "talent": { "htmlFields": ["description"] },
+      "weapon": { "htmlFields": ["description"] },
+      "equipment": { "htmlFields": ["description"] },
+      "spell": { "htmlFields": ["effect", "description"] },
+      "itgear": { "htmlFields": ["effect", "description"] }
+    }
+  },
+  "grid": {
+    "distance": 2,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "combat.toughness",
+  "secondaryTokenAttribute": "combat.adrenaline",
+  "initiative": "@combat.initiative.value",
+  "url": "https://github.com/zachselsewhere/foundryvtt-the-laundry",
+  "manifest": "https://github.com/zachselsewhere/foundryvtt-the-laundry/releases/latest/download/system.json",
+  "download": "https://github.com/zachselsewhere/foundryvtt-the-laundry/releases/latest/download/the-laundry.zip"
+}

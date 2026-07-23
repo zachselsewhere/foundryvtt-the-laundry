@@ -1,0 +1,56 @@
+<div class="team-inner">
+  <header class="laundry-masthead">
+    <div class="classified-strip" aria-hidden="true">Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential</div>
+    <div class="masthead-row">
+      <div class="brand"><span class="brand-the">THE</span><span class="brand-name">L<span class="brand-mark">&#9737;</span>UNDRY</span></div>
+      <div class="record-type">TEAM SHEET</div>
+    </div>
+  </header>
+
+  <div class="team-body">
+    <div class="team-main">
+      <div class="field wide"><label>Team / Project Assigned Name</label><input type="text" name="name" value="{{actor.name}}"></div>
+
+      <div class="team-grid">
+        <div class="panel"><div class="panel-head">Team Members</div><div class="panel-body editor-box">{{editor enriched.members target="system.members" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Team Manager</div><div class="panel-body editor-box short">{{editor enriched.teamManager target="system.teamManager" button=true editable=editable engine="prosemirror"}}</div></div>
+
+        <div class="panel"><div class="panel-head">Short-term KPIs</div><div class="panel-body editor-box">{{editor enriched.shortTermKPIs target="system.shortTermKPIs" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Budget</div><div class="panel-body editor-box short">{{editor enriched.budget target="system.budget" button=true editable=editable engine="prosemirror"}}</div></div>
+
+        <div class="panel"><div class="panel-head">Long-term KPIs</div><div class="panel-body editor-box">{{editor enriched.longTermKPIs target="system.longTermKPIs" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Team Resources</div><div class="panel-body editor-box">{{editor enriched.resources target="system.resources" button=true editable=editable engine="prosemirror"}}</div></div>
+
+        <div class="panel"><div class="panel-head">Known Allies</div><div class="panel-body editor-box">{{editor enriched.knownAllies target="system.knownAllies" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel"><div class="panel-head">Rumours</div><div class="panel-body editor-box">{{editor enriched.rumours target="system.rumours" button=true editable=editable engine="prosemirror"}}</div></div>
+
+        <div class="panel"><div class="panel-head">Known Enemies</div><div class="panel-body editor-box">{{editor enriched.knownEnemies target="system.knownEnemies" button=true editable=editable engine="prosemirror"}}</div></div>
+        <div class="panel spacer"></div>
+      </div>
+    </div>
+
+    <div class="luck-rail">
+      <div class="luck-head">Total Luck</div>
+      <div class="luck-current" data-tooltip="Current Luck">{{system.luck.value}}</div>
+      <div class="luck-track">
+        {{#each luckTrack as |b|}}
+        <span class="luck-box {{#if b.active}}active{{/if}}" data-action="adjustLuck" data-value="{{b.n}}">{{b.n}}</span>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="threat-rail">
+    <div class="threat-head">Threat</div>
+    <div class="threat-track">
+      {{#each threatTrack as |b|}}
+      <span class="threat-box {{#if b.active}}active{{/if}}" data-action="adjustThreat" data-value="{{b.n}}">{{b.n}}</span>
+      {{/each}}
+    </div>
+  </div>
+
+  <footer class="classified-footer">
+    This record is classified <strong>PERSONA MATRIX RED</strong>, not for distribution. Falsifying information on this record
+    is punishable under the Falsified Records Directive (FRD) delegated regulation (1998/161).
+  </footer>
+</div>

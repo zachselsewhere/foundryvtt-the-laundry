@@ -1,0 +1,17 @@
+{{!-- Renders one Skill row: name (rollable) + Training squares + Focus dots. Context = a skill object. --}}
+<div class="skill-row">
+  <a class="skill-name" data-action="rollSkill" data-skill="{{key}}"
+     data-tooltip="{{localize attrLabel}} ({{localize label}})">{{localize label}}</a>
+  <div class="pips training" role="group" aria-label="Training">
+    {{#each trainingPips as |p|}}
+    <span class="pip square {{#if p.filled}}filled{{/if}}"
+          data-action="adjustSkill" data-skill="{{../key}}" data-track="training" data-value="{{p.n}}"></span>
+    {{/each}}
+  </div>
+  <div class="pips focus" role="group" aria-label="Focus">
+    {{#each focusPips as |p|}}
+    <span class="pip dot {{#if p.filled}}filled{{/if}}"
+          data-action="adjustSkill" data-skill="{{../key}}" data-track="focus" data-value="{{p.n}}"></span>
+    {{/each}}
+  </div>
+</div>

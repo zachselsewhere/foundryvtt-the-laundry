@@ -1,0 +1,170 @@
+<section class="tab dossier {{tabs.dossier.cssClass}}" data-group="primary" data-tab="dossier">
+
+  {{!-- ===== IDENTITY + ATTRIBUTES ===== --}}
+  <div class="dossier-top">
+    <div class="identity-block">
+      <div class="identity-col">
+        <div class="field"><label>Name</label><input type="text" name="name" value="{{actor.name}}" placeholder="&mdash;"></div>
+        <div class="field"><label>Player</label><input type="text" name="system.identity.player" value="{{system.identity.player}}"></div>
+        <div class="field"><label>Assignment</label><input type="text" name="system.identity.assignment" value="{{system.identity.assignment}}"></div>
+        <div class="field"><label>Department</label><input type="text" name="system.identity.department" value="{{system.identity.department}}"></div>
+        <div class="field"><label>Line Manager</label><input type="text" name="system.identity.lineManager" value="{{system.identity.lineManager}}"></div>
+        <div class="field"><label>Supervisor(s)</label><input type="text" name="system.identity.supervisors" value="{{system.identity.supervisors}}"></div>
+        <div class="field"><label>Short-term Goals</label><input type="text" name="system.goals.shortTerm" value="{{system.goals.shortTerm}}"></div>
+        <div class="field"><label>Long-term Goals</label><input type="text" name="system.goals.longTerm" value="{{system.goals.longTerm}}"></div>
+        <div class="field"><label>Description</label><input type="text" name="system.description" value="{{system.description}}"></div>
+      </div>
+      <div class="identity-col">
+        <div class="field"><label>Age</label><input type="text" name="system.identity.age" value="{{system.identity.age}}"></div>
+        <div class="field"><label>Grade</label><input type="text" name="system.identity.grade" value="{{system.identity.grade}}"></div>
+        <div class="field"><label>Gender</label><input type="text" name="system.identity.gender" value="{{system.identity.gender}}"></div>
+        <div class="field"><label>Born</label><input type="text" name="system.identity.born" value="{{system.identity.born}}"></div>
+        <div class="field"><label>Deceased</label><input type="text" name="system.identity.deceased" value="{{system.identity.deceased}}"></div>
+        <div class="field"><label>Height</label><input type="text" name="system.identity.height" value="{{system.identity.height}}"></div>
+        <div class="field"><label>Weight</label><input type="text" name="system.identity.weight" value="{{system.identity.weight}}"></div>
+        <div class="field"><label>Speed</label><input type="text" name="system.identity.speed" value="{{system.identity.speed}}"></div>
+      </div>
+    </div>
+
+    <div class="attributes-block">
+      {{#each attributes as |a|}}
+      <div class="attr-box">
+        <a class="attr-label" data-action="rollAttribute" data-attr="{{a.key}}" data-tooltip="Roll {{localize a.label}}">{{localize a.label}}</a>
+        <input type="number" class="attr-value" name="system.attributes.{{a.key}}" value="{{a.value}}" min="0" step="1">
+      </div>
+      {{/each}}
+    </div>
+  </div>
+
+  {{!-- ===== SKILLS + TALENTS ===== --}}
+  <div class="dossier-mid">
+    <div class="panel skills-panel">
+      <div class="panel-head">Skills</div>
+      <div class="panel-body skills-cols">
+        <div class="skills-col">
+          <div class="skills-col-head"><span class="col-skill"></span><span class="col-training">Training</span><span class="col-focus">Focus</span></div>
+          {{#each skillsLeft as |s|}}{{> laundry.skillRow s}}{{/each}}
+        </div>
+        <div class="skills-col">
+          <div class="skills-col-head"><span class="col-skill"></span><span class="col-training">Training</span><span class="col-focus">Focus</span></div>
+          {{#each skillsRight as |s|}}{{> laundry.skillRow s}}{{/each}}
+        </div>
+      </div>
+    </div>
+
+    <div class="panel talents-panel">
+      <div class="panel-head">Talents <a class="add-btn" data-action="createItem" data-type="talent" data-tooltip="Add Talent"><i class="fa-solid fa-plus"></i></a></div>
+      <div class="panel-body">
+        <ul class="entry-list">
+          {{#each talents as |t|}}
+          <li class="entry" data-item-id="{{t.id}}">
+            <img class="entry-img" src="{{t.img}}" alt="">
+            <span class="entry-name" data-action="editItem">{{t.name}}</span>
+            <span class="entry-controls">
+              <a data-action="editItem" data-tooltip="Edit"><i class="fa-solid fa-pen-to-square"></i></a>
+              <a data-action="deleteItem" data-tooltip="Delete"><i class="fa-solid fa-trash"></i></a>
+            </span>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {{!-- ===== COMBAT + INJURIES ===== --}}
+  <div class="dossier-combat">
+    <div class="panel combat-panel">
+      <div class="panel-head">Combat</div>
+      <div class="panel-body combat-body">
+        <table class="combat-matrix">
+          <thead><tr><th class="mx-rating"></th><th>M</th><th>A</th><th>D</th></tr></thead>
+          <tbody>
+            {{#each combatMatrix as |r|}}
+            <tr>
+              <td class="mx-rating">{{localize r.label}}</td>
+              <td class="mx-mark {{#if r.m}}on{{/if}}"></td>
+              <td class="mx-mark {{#if r.a}}on{{/if}}"></td>
+              <td class="mx-mark {{#if r.d}}on{{/if}}"></td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+
+        <table class="attack-dn">
+          <thead><tr><th>Attack DN &mdash; (M) or (A) vs (D)</th><th>DN</th></tr></thead>
+          <tbody>
+            <tr><td>Two or more steps higher</td><td>2</td></tr>
+            <tr><td>One step higher</td><td>3</td></tr>
+            <tr><td>Equal</td><td>4</td></tr>
+            <tr><td>One step lower</td><td>5</td></tr>
+            <tr><td>Two or more steps lower</td><td>6</td></tr>
+          </tbody>
+        </table>
+
+        <div class="combat-stats">
+          <div class="stat-box"><label>Initiative</label><span class="stat-derived">{{system.combat.initiative.value}}</span></div>
+          <div class="stat-box"><label>Armour</label><input type="number" name="system.combat.armour" value="{{system.combat.armour}}" min="0" step="1"></div>
+          <div class="stat-box dual"><label>Adrenaline</label>
+            <div class="dual-vals">
+              <input type="number" name="system.combat.adrenaline.value" value="{{system.combat.adrenaline.value}}" min="0" step="1" data-tooltip="Current">
+              <span class="slash">/</span>
+              <span class="stat-derived" data-tooltip="Total">{{system.combat.adrenaline.max}}</span>
+            </div>
+          </div>
+          <div class="stat-box dual"><label>Toughness</label>
+            <div class="dual-vals">
+              <input type="number" name="system.combat.toughness.value" value="{{system.combat.toughness.value}}" min="0" step="1" data-tooltip="Current">
+              <span class="slash">/</span>
+              <span class="stat-derived" data-tooltip="Total">{{system.combat.toughness.max}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel injuries-panel">
+      <div class="panel-head">Injuries</div>
+      <div class="panel-body injuries-body">
+        <div class="injury-track">
+          {{#each injuryTrack as |b|}}
+          <span class="injury-box {{#if b.filled}}filled{{/if}}" data-action="adjustInjuries" data-value="{{b.n}}" data-tooltip="Injury {{b.n}}"></span>
+          {{/each}}
+        </div>
+        <div class="critical-flag {{#if system.combat.critical}}active{{/if}}">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          <span>Critically Injured</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{!-- ===== ATTACKS ===== --}}
+  <div class="panel attacks-panel">
+    <div class="panel-head">Attacks <a class="add-btn" data-action="createItem" data-type="weapon" data-tooltip="Add Weapon"><i class="fa-solid fa-plus"></i></a></div>
+    <div class="panel-body">
+      <table class="data-table attacks-table">
+        <thead><tr><th>Weapon</th><th>Pool</th><th>Focus</th><th>Damage</th><th>Traits</th><th class="ctrl-col"></th></tr></thead>
+        <tbody>
+          {{#each weapons as |w|}}
+          <tr data-item-id="{{w.id}}">
+            <td><a class="rollable" data-action="rollItem" data-tooltip="Roll attack">{{w.name}}</a></td>
+            <td class="num">{{w.system.pool}}</td>
+            <td class="num">{{w.system.focus}}</td>
+            <td>{{w.system.damage}}</td>
+            <td>{{w.system.traits}}</td>
+            <td class="row-controls">
+              <a data-action="editItem" data-tooltip="Edit"><i class="fa-solid fa-pen-to-square"></i></a>
+              <a data-action="deleteItem" data-tooltip="Delete"><i class="fa-solid fa-trash"></i></a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer class="classified-footer">
+    This record is classified <strong>PERSONA MATRIX RED</strong>, not for distribution. Falsifying information on this record
+    is punishable under the Falsified Records Directive (FRD) delegated regulation (1998/161).
+  </footer>
+</section>

@@ -1,0 +1,21 @@
+<header class="laundry-masthead">
+  <div class="classified-strip" aria-hidden="true">Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential&nbsp;&middot;&nbsp;Top&nbsp;Secret&nbsp;&middot;&nbsp;Confidential</div>
+
+  <div class="masthead-row">
+    <div class="brand">
+      <span class="brand-the">THE</span>
+      <span class="brand-name">L<span class="brand-mark">&#9737;</span>UNDRY</span>
+    </div>
+    <div class="record-type">
+      {{#if (laundryEq actor.type "npc")}}THREAT ASSESSMENT{{else}}PERSONNEL RECORD{{/if}}
+    </div>
+  </div>
+
+  <nav class="sheet-tabs" data-group="primary">
+    {{#each tabs as |t|}}
+    <a class="tab-link {{t.cssClass}}" data-action="changeTab" data-group="{{t.group}}" data-tab="{{t.id}}">
+      <i class="{{t.icon}}"></i><span>{{localize t.label}}</span>
+    </a>
+    {{/each}}
+  </nav>
+</header>

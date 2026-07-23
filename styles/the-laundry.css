@@ -1,0 +1,549 @@
+/* ============================================================
+   THE LAUNDRY RPG — dossier styling
+   Scoped under .the-laundry (applied to every system sheet).
+   ============================================================ */
+
+.the-laundry {
+  --paper: #e8e3d5;
+  --paper-2: #ded8c6;
+  --paper-edge: #cfc8b2;
+  --ink: #191714;
+  --ink-soft: #47433b;
+  --bar: #262523;
+  --bar-2: #3a3733;
+  --bar-text: #f2eee2;
+  --line: #2b2926;
+  --hair: rgba(30, 28, 24, 0.55);
+  --accent: #8a1c12;
+  --mono: "Courier New", Courier, "Consolas", monospace;
+  --serif: Georgia, "Times New Roman", serif;
+}
+
+/* ---- Window shell -------------------------------------------------- */
+.the-laundry .window-content {
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  /* layered paper grain */
+  background-image:
+    radial-gradient(circle at 20% 15%, rgba(0,0,0,0.035) 0, transparent 40%),
+    radial-gradient(circle at 85% 80%, rgba(0,0,0,0.05) 0, transparent 45%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  font-family: var(--serif);
+  font-size: 13px;
+}
+
+.the-laundry .sheet-body,
+.the-laundry .window-content > * { min-height: 0; }
+
+.the-laundry input,
+.the-laundry select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--hair);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 12px;
+  border-radius: 0;
+  height: auto;
+  line-height: 1.4;
+}
+.the-laundry input:focus,
+.the-laundry select:focus {
+  outline: none;
+  box-shadow: 0 1px 0 0 var(--accent);
+  border-bottom-color: var(--accent);
+}
+.the-laundry a { color: var(--ink); }
+.the-laundry a:hover { text-shadow: 0 0 4px rgba(138,28,18,0.5); }
+
+/* ---- Masthead ------------------------------------------------------ */
+.the-laundry .laundry-masthead { padding: 4px 10px 0; }
+.the-laundry .classified-strip {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom: 1px solid var(--hair);
+  padding-bottom: 3px;
+  opacity: 0.7;
+}
+.the-laundry .masthead-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 6px 2px 4px;
+}
+.the-laundry .brand { display: flex; align-items: baseline; gap: 6px; line-height: 1; }
+.the-laundry .brand-the {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.the-laundry .brand-name {
+  font-family: "Arial Black", Impact, var(--mono);
+  font-weight: 900;
+  font-size: 34px;
+  letter-spacing: 1px;
+  color: var(--ink);
+}
+.the-laundry .brand-mark { font-size: 24px; }
+.the-laundry .record-type {
+  font-family: "Arial Black", Impact, sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+/* ---- Tabs ---------------------------------------------------------- */
+.the-laundry .sheet-tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 2px solid var(--line);
+  margin-top: 2px;
+}
+.the-laundry .tab-link {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  background: var(--paper-2);
+  border: 1px solid var(--hair);
+  border-bottom: none;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.the-laundry .tab-link.active {
+  background: var(--bar);
+  color: var(--bar-text);
+}
+.the-laundry .tab-link.active i { color: var(--bar-text); }
+
+/* ---- Tab visibility ------------------------------------------------ */
+.the-laundry .tab { display: none; padding: 8px 10px 12px; }
+.the-laundry .tab.active { display: block; }
+
+/* ---- Panels -------------------------------------------------------- */
+.the-laundry .panel {
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.14);
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.the-laundry .panel-head {
+  background: linear-gradient(var(--bar-2), var(--bar));
+  color: var(--bar-text);
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.the-laundry .panel-head .add-btn {
+  color: var(--bar-text);
+  font-size: 11px;
+  opacity: 0.85;
+}
+.the-laundry .panel-head .add-btn:hover { opacity: 1; }
+.the-laundry .panel-body { padding: 6px 8px; }
+
+/* ---- Identity + attributes ---------------------------------------- */
+.the-laundry .dossier-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 150px;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.the-laundry .identity-block {
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 10px;
+}
+.the-laundry .field {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  align-items: center;
+  border: 1px solid var(--hair);
+  border-bottom: none;
+}
+.the-laundry .identity-col .field:last-child { border-bottom: 1px solid var(--hair); }
+.the-laundry .field label {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: 3px 6px;
+  background: var(--paper-2);
+  border-right: 1px solid var(--hair);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.the-laundry .field input { padding: 3px 6px; border-bottom: none; width: 100%; }
+.the-laundry .field.wide { grid-template-columns: 220px 1fr; }
+
+.the-laundry .attributes-block {
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.the-laundry .attr-box {
+  border: 2px solid var(--line);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 62px;
+}
+.the-laundry .attr-label {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+  background: linear-gradient(var(--bar-2), var(--bar));
+  color: var(--bar-text);
+  padding: 2px;
+  cursor: pointer;
+}
+.the-laundry .attr-value {
+  text-align: center;
+  font-family: "Arial Black", Impact, var(--mono);
+  font-size: 30px;
+  font-weight: 900;
+  border-bottom: none;
+  width: 100%;
+  align-self: center;
+}
+
+/* ---- Skills -------------------------------------------------------- */
+.the-laundry .dossier-mid {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 8px;
+  align-items: start;
+}
+.the-laundry .skills-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 14px; }
+.the-laundry .skills-col-head {
+  display: grid;
+  grid-template-columns: 1fr 58px 58px;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.5px;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--hair);
+}
+.the-laundry .skills-col-head .col-training,
+.the-laundry .skills-col-head .col-focus { text-align: center; }
+
+.the-laundry .skill-row {
+  display: grid;
+  grid-template-columns: 1fr 58px 58px;
+  align-items: center;
+  padding: 1px 0;
+}
+.the-laundry .skill-name {
+  font-family: var(--mono);
+  font-size: 11px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.the-laundry .skill-name:hover { color: var(--accent); font-weight: 700; }
+.the-laundry .pips { display: flex; gap: 3px; justify-content: center; }
+.the-laundry .pip {
+  width: 11px; height: 11px;
+  border: 1.5px solid var(--line);
+  cursor: pointer;
+  background: transparent;
+  transition: background 0.1s;
+}
+.the-laundry .pip.square { border-radius: 1px; }
+.the-laundry .pip.dot { border-radius: 50%; }
+.the-laundry .pip.filled { background: var(--ink); }
+.the-laundry .pips.focus .pip.filled { background: var(--accent); border-color: var(--accent); }
+.the-laundry .pip:hover { box-shadow: 0 0 0 2px rgba(138,28,18,0.35); }
+
+/* ---- Talents / entry lists ---------------------------------------- */
+.the-laundry .entry-list { list-style: none; margin: 0; padding: 0; }
+.the-laundry .entry {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 2px;
+  border-bottom: 1px dotted var(--hair);
+}
+.the-laundry .entry-img { width: 18px; height: 18px; object-fit: cover; border: 1px solid var(--hair); flex: 0 0 auto; }
+.the-laundry .entry-name { flex: 1; font-family: var(--mono); font-size: 11px; cursor: pointer; }
+.the-laundry .entry-name:hover { color: var(--accent); }
+.the-laundry .entry .qty { color: var(--ink-soft); font-size: 10px; }
+.the-laundry .entry-controls { display: flex; gap: 6px; opacity: 0.6; }
+.the-laundry .entry:hover .entry-controls { opacity: 1; }
+.the-laundry .entry-controls a, .the-laundry .row-controls a { font-size: 11px; }
+
+/* ---- Combat -------------------------------------------------------- */
+.the-laundry .dossier-combat {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  gap: 8px;
+  align-items: stretch;
+  margin-top: 8px;
+}
+.the-laundry .combat-body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  align-items: start;
+}
+.the-laundry table.combat-matrix,
+.the-laundry table.attack-dn { border-collapse: collapse; font-family: var(--mono); font-size: 11px; width: 100%; }
+.the-laundry .combat-matrix th, .the-laundry .combat-matrix td,
+.the-laundry .attack-dn th, .the-laundry .attack-dn td {
+  border: 1px solid var(--hair);
+  padding: 2px 6px;
+  text-align: center;
+}
+.the-laundry .combat-matrix .mx-rating { text-align: left; font-size: 10px; }
+.the-laundry .combat-matrix .mx-mark { width: 22px; }
+.the-laundry .combat-matrix .mx-mark.on { position: relative; }
+.the-laundry .combat-matrix .mx-mark.on::after {
+  content: "";
+  display: inline-block;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.the-laundry .attack-dn th { background: var(--paper-2); font-size: 10px; }
+.the-laundry .attack-dn td:first-child { text-align: left; }
+
+.the-laundry .combat-stats {
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin-top: 6px;
+}
+.the-laundry .stat-box {
+  border: 1px solid var(--line);
+  padding: 3px 6px;
+  text-align: center;
+  background: rgba(255,255,255,0.2);
+}
+.the-laundry .stat-box label {
+  display: block;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.the-laundry .stat-box input { text-align: center; font-size: 18px; font-weight: 700; width: 100%; border-bottom: none; }
+.the-laundry .stat-derived { font-size: 18px; font-weight: 700; font-family: var(--mono); }
+.the-laundry .dual-vals { display: flex; align-items: center; justify-content: center; gap: 2px; }
+.the-laundry .dual-vals input { width: 40%; }
+.the-laundry .dual-vals .slash { font-size: 16px; }
+
+/* ---- Injuries ------------------------------------------------------ */
+.the-laundry .injuries-body { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.the-laundry .injury-track { display: flex; flex-direction: column; gap: 5px; width: 100%; align-items: center; }
+.the-laundry .injury-box {
+  width: 20px; height: 20px;
+  border: 1.5px solid var(--line);
+  cursor: pointer;
+}
+.the-laundry .injury-box.filled { background: var(--ink); }
+.the-laundry .injury-box:hover { box-shadow: 0 0 0 2px rgba(138,28,18,0.4); }
+.the-laundry .critical-flag {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+  font-family: var(--mono); font-size: 10px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.5px; text-align: center; line-height: 1.15;
+  color: var(--ink-soft); opacity: 0.5;
+  margin-top: auto; padding-top: 6px; width: 100%;
+}
+.the-laundry .critical-flag i { font-size: 20px; }
+.the-laundry .critical-flag.active { color: var(--accent); opacity: 1; animation: laundry-pulse 1.4s ease-in-out infinite; }
+@keyframes laundry-pulse { 50% { opacity: 0.5; } }
+
+/* ---- Data tables (attacks, spells, IT, effects) -------------------- */
+.the-laundry table.data-table { width: 100%; border-collapse: collapse; font-size: 11px; }
+.the-laundry .data-table th {
+  background: var(--paper-2);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 3px 6px;
+  border: 1px solid var(--hair);
+}
+.the-laundry .data-table td { border: 1px solid var(--hair); padding: 2px 6px; vertical-align: top; }
+.the-laundry .data-table td.num { text-align: center; font-family: var(--mono); }
+.the-laundry .data-table .rollable { font-family: var(--mono); font-weight: 700; cursor: pointer; }
+.the-laundry .data-table .rollable:hover { color: var(--accent); }
+.the-laundry .data-table .ctrl-col { width: 44px; }
+.the-laundry .row-controls { text-align: center; white-space: nowrap; opacity: 0.6; }
+.the-laundry tr:hover .row-controls { opacity: 1; }
+.the-laundry .effect-cell { font-size: 10px; }
+.the-laundry .effect-cell p { margin: 0; }
+
+/* ---- File tab (page 2) --------------------------------------------- */
+.the-laundry .file-row { display: grid; gap: 8px; margin-bottom: 8px; }
+.the-laundry .file-row-top { grid-template-columns: 190px 1fr 1fr; align-items: start; }
+.the-laundry .file-row-three { grid-template-columns: repeat(3, 1fr); }
+.the-laundry .panel.grow { min-height: 200px; }
+.the-laundry .photo-col { display: flex; flex-direction: column; gap: 8px; }
+.the-laundry .polaroid {
+  position: relative;
+  background: #fbfaf5;
+  border: 1px solid var(--hair);
+  padding: 10px 10px 14px;
+  box-shadow: 2px 3px 6px rgba(0,0,0,0.25);
+  transform: rotate(-1.2deg);
+}
+.the-laundry .polaroid .tape {
+  position: absolute; top: -10px; left: 50%; transform: translateX(-50%) rotate(2deg);
+  width: 74px; height: 22px;
+  background: rgba(196, 176, 108, 0.55);
+  border: 1px solid rgba(150,130,70,0.4);
+}
+.the-laundry .portrait { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; cursor: pointer; border: 1px solid var(--hair); background: #fff; }
+.the-laundry .editor-box { min-height: 120px; }
+.the-laundry .editor-box.small { min-height: 70px; }
+.the-laundry .editor-box.short { min-height: 90px; margin-bottom: 6px; }
+.the-laundry .goals-split { display: grid; grid-template-rows: 1fr 1fr; gap: 6px; }
+.the-laundry .goals-split .editor-box { min-height: 80px; }
+.the-laundry prose-mirror { min-height: inherit; display: block; font-family: var(--serif); }
+.the-laundry .editor-box .editor,
+.the-laundry .editor-box prose-mirror { border: 1px dotted var(--hair); background: rgba(255,255,255,0.35); }
+
+/* ---- Effects tab --------------------------------------------------- */
+.the-laundry .effects-table tr.disabled { opacity: 0.5; }
+.the-laundry .hint { font-size: 10px; font-style: italic; color: var(--ink-soft); margin: 6px 2px 0; }
+
+/* ---- Classified footer -------------------------------------------- */
+.the-laundry .classified-footer {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--hair);
+  padding-top: 4px;
+  margin-top: 6px;
+  line-height: 1.35;
+}
+
+/* ============================================================
+   TEAM SHEET
+   ============================================================ */
+.the-laundry.team .window-content { padding: 0; }
+.the-laundry .team-inner { padding: 4px 10px 10px; }
+.the-laundry .team-body { display: grid; grid-template-columns: 1fr 60px; gap: 10px; }
+.the-laundry .team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; align-items: start; }
+.the-laundry .team-grid .panel { margin-bottom: 0; }
+.the-laundry .team-grid .panel.spacer { border: none; background: transparent; }
+.the-laundry .team-main .field.wide { border: 1px solid var(--hair); margin-bottom: 8px; }
+
+.the-laundry .luck-rail { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.the-laundry .luck-head {
+  font-family: var(--mono); font-weight: 700; font-size: 10px; letter-spacing: 1px;
+  text-transform: uppercase; text-align: center;
+}
+.the-laundry .luck-current {
+  width: 44px; height: 44px;
+  border: 2px solid var(--line);
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: "Arial Black", Impact, var(--mono); font-size: 22px; font-weight: 900;
+  background: rgba(255,255,255,0.35);
+}
+.the-laundry .luck-track { display: flex; flex-direction: column; gap: 3px; }
+.the-laundry .luck-box, .the-laundry .threat-box {
+  width: 30px; height: 22px;
+  border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 11px; font-weight: 700;
+  cursor: pointer;
+  background: rgba(255,255,255,0.25);
+}
+.the-laundry .luck-box.active { background: var(--ink); color: var(--paper); }
+.the-laundry .threat-rail { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+.the-laundry .threat-head {
+  font-family: "Arial Black", Impact, sans-serif; font-size: 16px; letter-spacing: 1px; text-transform: uppercase;
+}
+.the-laundry .threat-track { display: flex; gap: 4px; }
+.the-laundry .threat-box { width: 38px; height: 30px; font-size: 13px; }
+.the-laundry .threat-box.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ============================================================
+   ITEM SHEET
+   ============================================================ */
+.the-laundry.item .item-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 10px;
+  border-bottom: 2px solid var(--line);
+}
+.the-laundry.item .item-img { width: 52px; height: 52px; object-fit: cover; border: 1px solid var(--line); cursor: pointer; }
+.the-laundry.item .item-title { flex: 1; }
+.the-laundry.item .item-name { width: 100%; font-family: var(--mono); font-size: 18px; font-weight: 700; border-bottom: 1px solid var(--hair); }
+.the-laundry.item .item-type-badge {
+  font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 1px;
+  color: var(--ink-soft);
+}
+.the-laundry.item .item-body { padding: 10px; }
+.the-laundry .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; margin-bottom: 10px; }
+.the-laundry .form-group { display: flex; flex-direction: column; gap: 2px; }
+.the-laundry .form-group.span2 { grid-column: 1 / 3; }
+.the-laundry .form-group.full { grid-column: 1 / -1; }
+.the-laundry .form-group.check { flex-direction: row; align-items: center; gap: 6px; }
+.the-laundry .form-group.check input { width: auto; }
+.the-laundry .form-group label {
+  font-family: var(--mono); font-size: 10px; font-weight: 700;
+  letter-spacing: 1px; text-transform: uppercase; color: var(--ink-soft);
+}
+.the-laundry .form-group input, .the-laundry .form-group select { border: 1px solid var(--hair); padding: 3px 6px; }
+.the-laundry .form-group.full .editor-box { min-height: 120px; border: 1px dotted var(--hair); }
+
+/* ============================================================
+   CHAT ROLL CARD
+   ============================================================ */
+.laundry-roll {
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid #2b2926;
+  background: #e8e3d5;
+  padding: 6px 8px;
+  color: #191714;
+}
+.laundry-roll h3 { margin: 0 0 4px; font-size: 13px; letter-spacing: 1px; border-bottom: 1px solid rgba(0,0,0,0.3); }
+.laundry-roll-meta { font-size: 10px; color: #47433b; margin-bottom: 6px; }
+.laundry-dice { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+.laundry-dice .die {
+  width: 26px; height: 26px;
+  display: flex; align-items: center; justify-content: center;
+  border: 2px solid #555; border-radius: 4px;
+  font-weight: 700; font-size: 14px;
+  background: #fff;
+}
+.laundry-dice .die.success { border-color: #1c6b2e; background: #d7efd7; color: #14471f; }
+.laundry-dice .die.fail { border-color: #999; color: #777; }
+.laundry-dice .die.boosted { box-shadow: 0 0 0 2px rgba(138,28,18,0.55); }
+.laundry-roll-result { font-weight: 700; font-size: 13px; text-align: center; padding: 3px; border-top: 1px solid rgba(0,0,0,0.25); }
+.laundry-roll-result.passed { color: #14471f; }
+.laundry-roll-result.failed { color: #8a1c12; }
+
+/* Roll dialog */
+.laundry-roll-dialog .form-group { display: flex; justify-content: space-between; align-items: center; margin: 4px 0; }
+.laundry-roll-dialog label { font-size: 12px; }
+.laundry-roll-dialog input { width: 70px; text-align: center; }
