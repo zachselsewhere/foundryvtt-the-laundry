@@ -31,10 +31,23 @@
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
   font-family: var(--serif);
   font-size: 13px;
+  /* Fixed-height window: header stays put, the active page scrolls internally. */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-.the-laundry .sheet-body,
-.the-laundry .window-content > * { min-height: 0; }
+/* Masthead / item header are fixed; the active content region scrolls. */
+.the-laundry .laundry-masthead,
+.the-laundry.item .item-header { flex: 0 0 auto; }
+.the-laundry .laundry-tabpage.active,
+.the-laundry .team-inner,
+.the-laundry.item .item-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 .the-laundry input,
 .the-laundry select {
@@ -318,8 +331,12 @@
   border: 1px solid var(--hair);
   padding: 2px 6px;
   text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  color: var(--ink);
 }
+.the-laundry .combat-matrix thead th { background: var(--bar); color: var(--bar-text); }
 .the-laundry .combat-matrix .mx-rating { text-align: left; font-size: 10px; }
+.the-laundry .combat-matrix tbody .mx-rating { background: var(--paper-2); }
 .the-laundry .combat-matrix .mx-mark { width: 22px; }
 .the-laundry .combat-matrix .mx-mark.on { position: relative; }
 .the-laundry .combat-matrix .mx-mark.on::after {
@@ -392,7 +409,7 @@
   padding: 3px 6px;
   border: 1px solid var(--hair);
 }
-.the-laundry .data-table td { border: 1px solid var(--hair); padding: 2px 6px; vertical-align: top; }
+.the-laundry .data-table td { border: 1px solid var(--hair); padding: 2px 6px; vertical-align: top; background: rgba(255, 255, 255, 0.3); color: var(--ink); }
 .the-laundry .data-table td.num { text-align: center; font-family: var(--mono); }
 .the-laundry .data-table .rollable { font-family: var(--mono); font-weight: 700; cursor: pointer; }
 .the-laundry .data-table .rollable:hover { color: var(--accent); }
