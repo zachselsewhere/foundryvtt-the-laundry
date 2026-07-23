@@ -1,0 +1,23 @@
+{
+  "_id": "VkDLH4AOoXx18zmO",
+  "_key": "!items!VkDLH4AOoXx18zmO",
+  "name": "Speed Reading",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You read and absorb text incredibly fast; after an hour with the right text you can converse on a subject, pilot vehicles, operate machinery, or cast spells you'd normally need another Talent for, but at Disadvantage until you buy that Talent.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

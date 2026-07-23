@@ -1,0 +1,23 @@
+{
+  "_id": "1uwe1l2GQLbCzRW2",
+  "_key": "!items!1uwe1l2GQLbCzRW2",
+  "name": "Eye In The Sky",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Awareness",
+    "adrenalineCost": 0,
+    "description": "<p>From a good vantage point (high ground, drone footage, or CCTV), communicate with an ally as a Free Action to improve their Defence one step until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

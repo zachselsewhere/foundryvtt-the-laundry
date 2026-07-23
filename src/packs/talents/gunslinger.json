@@ -1,0 +1,23 @@
+{
+  "_id": "btHR439jaR91fRCk",
+  "_key": "!items!btHR439jaR91fRCk",
+  "name": "Gunslinger",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Ranged Skill",
+    "adrenalineCost": 0,
+    "description": "<p>While wielding a ranged weapon in each hand, your Accuracy improves by one step.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "ubgxf6bzzxh4Mgr2",
+  "_key": "!items!ubgxf6bzzxh4Mgr2",
+  "name": "Insightful Interrogator",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Presence and Intuition",
+    "adrenalineCost": 0,
+    "description": "<p>When making a Presence Test to coerce or intimidate, you may use Mind in place of Body or Spirit and add your Training and Focus in Intuition to the Test.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

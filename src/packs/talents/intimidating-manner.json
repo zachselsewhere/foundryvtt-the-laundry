@@ -1,0 +1,23 @@
+{
+  "_id": "cAP9hWBg9APZYN48",
+  "_key": "!items!cAP9hWBg9APZYN48",
+  "name": "Intimidating Manner",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to threaten, intimidate, cajole, and start arguments; people often leave you alone even where you don't belong.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

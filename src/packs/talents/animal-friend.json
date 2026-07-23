@@ -1,0 +1,23 @@
+{
+  "_id": "UXqFL9qrb6rgMHOZ",
+  "_key": "!items!UXqFL9qrb6rgMHOZ",
+  "name": "Animal Friend",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to command or earn the trust of animals, and instinctively sense what an animal wants or what is distressing it.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

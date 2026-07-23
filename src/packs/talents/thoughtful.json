@@ -1,0 +1,23 @@
+{
+  "_id": "xOLV5saWoyWgFnPn",
+  "_key": "!items!xOLV5saWoyWgFnPn",
+  "name": "Thoughtful",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When you make a Mind Test and can afford to take your time, you double the dice from your Training in the Skill being Tested. This cannot be used for anything demanding an immediate or dynamic response, such as reflexes, conversation, combat, or magic.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

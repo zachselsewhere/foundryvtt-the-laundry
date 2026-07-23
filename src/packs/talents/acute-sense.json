@@ -1,0 +1,23 @@
+{
+  "_id": "7nsmrNfRDIyfjLdl",
+  "_key": "!items!7nsmrNfRDIyfjLdl",
+  "name": "Acute Sense",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Awareness",
+    "adrenalineCost": 0,
+    "description": "<p>Pick one sense (sight, sound, touch, taste, or smell); Awareness Tests using it double the dice gained from Training, and the GM may allow Tests others cannot attempt with that sense.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

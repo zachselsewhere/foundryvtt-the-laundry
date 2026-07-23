@@ -1,0 +1,23 @@
+{
+  "_id": "hJzdhmZjWmHE7k3M",
+  "_key": "!items!hJzdhmZjWmHE7k3M",
+  "name": "Fearless",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When you become Frightened from a failed Test or are influenced to act against your will, immediately attempt a DN 6:1 Mind (Resolve) Test to resist the effect.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

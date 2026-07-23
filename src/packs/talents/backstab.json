@@ -1,0 +1,23 @@
+{
+  "_id": "lWAVIEJ3JdYnOdoY",
+  "_key": "!items!lWAVIEJ3JdYnOdoY",
+  "name": "Backstab",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) or Focus (1) in Stealth",
+    "adrenalineCost": 0,
+    "description": "<p>An Attack made with a Subtle weapon against a target unaware of you deals double Damage and ignores Armour.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "vJpvaLtoYmb5efqd",
+  "_key": "!items!vJpvaLtoYmb5efqd",
+  "name": "Tactician",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Military background",
+    "adrenalineCost": 0,
+    "description": "<p>As an Action, choose an ally within Medium Range; if able and armed they may make an Attack against an enemy of your choice, adding bonus dice equal to your Mind. Usable once per round.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

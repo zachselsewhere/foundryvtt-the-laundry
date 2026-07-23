@@ -1,0 +1,23 @@
+{
+  "_id": "QeT7Qx3N5Wsywdjy",
+  "_key": "!items!QeT7Qx3N5Wsywdjy",
+  "name": "Unnerving Grace",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Body (4), Training (1) in Stealth",
+    "adrenalineCost": 0,
+    "description": "<p>On a Body (Presence) Test you may use Stealth in place of Presence and gain Advantage, and anyone who spots you creeping about tends to look away rather than provoke you.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

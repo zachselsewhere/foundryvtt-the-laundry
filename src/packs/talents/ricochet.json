@@ -1,0 +1,23 @@
+{
+  "_id": "iB6xVcaWTpViHS5V",
+  "_key": "!items!iB6xVcaWTpViHS5V",
+  "name": "Ricochet",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (2) and Focus (2) in Ranged Skill",
+    "adrenalineCost": 0,
+    "description": "<p>When you make a ranged Attack, the weapon gains the Spread Trait, letting you deflect a shot off one target into another.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

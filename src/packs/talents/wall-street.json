@@ -1,0 +1,23 @@
+{
+  "_id": "0NXyBp4ytY65ogL8",
+  "_key": "!items!0NXyBp4ytY65ogL8",
+  "name": "Wall Street",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You gain Advantage on Tests to bargain or broker contracts, and a failed bribe attempt is more likely to be brushed off than reported.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

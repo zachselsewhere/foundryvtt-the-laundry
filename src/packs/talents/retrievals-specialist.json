@@ -1,0 +1,23 @@
+{
+  "_id": "cnNftNPfRaIg4drV",
+  "_key": "!items!cnNftNPfRaIg4drV",
+  "name": "Retrievals Specialist",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You gain Advantage on Tests to find lost or hidden items and ignore penalties from the Subtle Trait when examining someone's gear. You can catch an item dropped by a Character in Close Range as a Free Action.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

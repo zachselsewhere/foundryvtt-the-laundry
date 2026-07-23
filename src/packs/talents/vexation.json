@@ -1,0 +1,23 @@
+{
+  "_id": "7lDguDkvdbVKAY0x",
+  "_key": "!items!7lDguDkvdbVKAY0x",
+  "name": "Vexation",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Zeal and Intuition",
+    "adrenalineCost": 1,
+    "description": "<p>When an enemy who can see or hear you within Medium Range makes a Test, you can spend Adrenaline to remove dice from their pool equal to your Training in Zeal.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

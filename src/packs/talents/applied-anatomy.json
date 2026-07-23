@@ -1,0 +1,23 @@
+{
+  "_id": "Ugvn0YkM0ytNsqWf",
+  "_key": "!items!Ugvn0YkM0ytNsqWf",
+  "name": "Applied Anatomy",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Medicine",
+    "adrenalineCost": 0,
+    "description": "<p>On a successful Attack against a living creature, add 1 Damage per 6 rolled, up to your higher of Training or Focus in Medicine.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

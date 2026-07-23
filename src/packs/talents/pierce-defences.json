@@ -1,0 +1,23 @@
+{
+  "_id": "v0I3eOgPueyQf3ou",
+  "_key": "!items!v0I3eOgPueyQf3ou",
+  "name": "Pierce Defences",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Awareness",
+    "adrenalineCost": 0,
+    "description": "<p>When you attack an armoured target with a Piercing weapon, ignore one point of Armour for every 6 rolled on the Attack.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

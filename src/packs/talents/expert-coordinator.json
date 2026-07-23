@@ -1,0 +1,23 @@
+{
+  "_id": "uezhMNTLwsY19yfp",
+  "_key": "!items!uezhMNTLwsY19yfp",
+  "name": "Expert Coordinator",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>All team members who can see or hear you add 1 to their Initiative.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

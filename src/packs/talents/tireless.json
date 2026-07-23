@@ -1,0 +1,23 @@
+{
+  "_id": "9Yccnz23KJRRfNAY",
+  "_key": "!items!9Yccnz23KJRRfNAY",
+  "name": "Tireless",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Resolve and Fortitude",
+    "adrenalineCost": 0,
+    "description": "<p>You gain Advantage on all Tests made as part of an Endeavour, and the first time you fail to tend to Business As Usual you get off with a warning.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

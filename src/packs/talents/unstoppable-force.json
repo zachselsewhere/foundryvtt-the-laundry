@@ -1,0 +1,23 @@
+{
+  "_id": "5zRgHjdZLHshMSD9",
+  "_key": "!items!5zRgHjdZLHshMSD9",
+  "name": "Unstoppable Force",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Body (3), Training (1) in Close Combat Skill",
+    "adrenalineCost": 0,
+    "description": "<p>When you Charge, you ignore Difficult Terrain and may add an extra 1d6 to your dice pool for the attack.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

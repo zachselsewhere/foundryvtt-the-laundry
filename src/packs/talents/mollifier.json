@@ -1,0 +1,23 @@
+{
+  "_id": "Bumpns4EoyETv4uX",
+  "_key": "!items!Bumpns4EoyETv4uX",
+  "name": "Mollifier",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When you take the Talk It Out Action or try to defuse any violent conflict, you have Advantage on Tests to resolve the situation.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

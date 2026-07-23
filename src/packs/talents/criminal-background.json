@@ -1,0 +1,23 @@
+{
+  "_id": "1iebZnbhlTZCMKYO",
+  "_key": "!items!1iebZnbhlTZCMKYO",
+  "name": "Criminal Background",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to steal from someone or to go unnoticed during illicit activity, and you can readily track down criminal contacts and dens of vice.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

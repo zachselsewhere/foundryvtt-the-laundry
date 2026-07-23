@@ -1,0 +1,23 @@
+{
+  "_id": "XazNIjJRWdb8IQzx",
+  "_key": "!items!XazNIjJRWdb8IQzx",
+  "name": "Military Rank",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "A military background",
+    "adrenalineCost": 0,
+    "description": "<p>You retain a former military rank, granting Advantage on Opposed Tests when using it to enter secure locations or pressure people for information. Can be taken multiple times to increase the rank (Sergeant up to Lieutenant Colonel or Major). <em>(Can be taken more than once.)</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

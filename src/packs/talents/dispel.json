@@ -1,0 +1,23 @@
+{
+  "_id": "bD0gD2moPkFDLbtk",
+  "_key": "!items!bD0gD2moPkFDLbtk",
+  "name": "Dispel",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Magic",
+    "adrenalineCost": 0,
+    "description": "<p>As an Action, dispel an already-cast spell with a Mind (Magic) Test at the spell's DN but one higher Complexity; failure leaves the spell active and raises the Complexity by one on each further attempt.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

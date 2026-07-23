@@ -1,0 +1,23 @@
+{
+  "_id": "pwnDiSda3PixFZjl",
+  "_key": "!items!pwnDiSda3PixFZjl",
+  "name": "Red Tape",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Bureaucracy",
+    "adrenalineCost": 0,
+    "description": "<p>You gain Advantage on Tests to requisition items, file paperwork, and expedite requests for support.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

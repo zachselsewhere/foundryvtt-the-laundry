@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Compile the source JSON in src/packs/ into the LevelDB compendium packs in
+# Compile every source folder in src/packs/ into the LevelDB compendium packs in
 # packs/ that Foundry actually reads. Run this after editing anything under
 # src/packs/. The release workflow runs the same step automatically, so you only
 # need this for local testing / manual installs.
@@ -9,14 +9,15 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-PACK="tools-of-the-trade"
+for dir in src/packs/*/; do
+  name="$(basename "$dir")"
+  echo "Compiling src/packs/${name} -> packs/${name} ..."
+  rm -rf "packs/${name}"
+  npx --yes @foundryvtt/foundryvtt-cli@latest package pack \
+    --id the-laundry --type System \
+    -n "${name}" \
+    --in "src/packs/${name}" \
+    --out packs
+done
 
-echo "Compiling src/packs/${PACK} -> packs/${PACK} ..."
-rm -rf "packs/${PACK}"
-npx --yes @foundryvtt/foundryvtt-cli@latest package pack \
-  --id the-laundry --type System \
-  -n "${PACK}" \
-  --in "src/packs/${PACK}" \
-  --out packs
-
-echo "Done. packs/${PACK} rebuilt."
+echo "Done. All packs rebuilt."

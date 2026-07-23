@@ -1,0 +1,23 @@
+{
+  "_id": "2cGanrR8zryJeJ4N",
+  "_key": "!items!2cGanrR8zryJeJ4N",
+  "name": "Contortionist",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to escape a grasp or slip free (such as when Grappled), and you can fit into unusually small or cramped spaces.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

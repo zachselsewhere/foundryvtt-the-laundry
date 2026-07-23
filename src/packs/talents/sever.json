@@ -1,0 +1,23 @@
+{
+  "_id": "lmAVylSgQVWXN2bf",
+  "_key": "!items!lmAVylSgQVWXN2bf",
+  "name": "Sever",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Medicine, a Slashing weapon",
+    "adrenalineCost": 0,
+    "description": "<p>On a 6 on a Slashing-weapon Attack, the target is knocked Prone and takes 1 Damage (ignoring Armour) each time it Moves for the rest of the combat.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

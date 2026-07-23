@@ -1,0 +1,23 @@
+{
+  "_id": "5CvFPha4mX9FPzcI",
+  "_key": "!items!5CvFPha4mX9FPzcI",
+  "name": "Face In The Crowd",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Stealth",
+    "adrenalineCost": 0,
+    "description": "<p>Any Stealth Test to avoid being spotted by people or cameras is at Advantage, and witnesses struggle to recall identifying details about you.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

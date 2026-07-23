@@ -1,0 +1,23 @@
+{
+  "_id": "TBq542YgjqiQL8nW",
+  "_key": "!items!TBq542YgjqiQL8nW",
+  "name": "Stalwart",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When you take the Defend Action to protect an ally, your Defence increases one step, and you gain Advantage on Body (Might) Tests to stop an enemy entering your Zone with the Defend Action.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

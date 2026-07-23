@@ -1,0 +1,23 @@
+{
+  "_id": "d38hexhH6q6wP1SJ",
+  "_key": "!items!d38hexhH6q6wP1SJ",
+  "name": "Project Planning",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Mind (3)",
+    "adrenalineCost": 0,
+    "description": "<p>During a Rest, spend an hour planning an encounter within the next 24 hours; each participant makes a DN 4:1 Mind Test and successes form a shared pool. During that encounter, a party member may spend one point (max one per Test) to reroll a die or increase its result by 1. Unused points are lost if the encounter doesn't occur within a day.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

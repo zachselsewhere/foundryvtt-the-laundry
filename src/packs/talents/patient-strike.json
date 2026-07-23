@@ -1,0 +1,23 @@
+{
+  "_id": "F2wFaiCDTLZot65U",
+  "_key": "!items!F2wFaiCDTLZot65U",
+  "name": "Patient Strike",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You may delay to act last in the Initiative, gaining one step to Melee and Accuracy for that turn; at the start of the next round you return to your original Initiative position.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "08tIAkcctfO7CTqE",
+  "_key": "!items!08tIAkcctfO7CTqE",
+  "name": "Creator",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Engineering or Technology",
+    "adrenalineCost": 0,
+    "description": "<p>Reduce the Complexity by 1 on Tests to build new items, but not on Tests to repair or modify existing ones.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

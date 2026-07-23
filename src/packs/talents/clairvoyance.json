@@ -1,0 +1,23 @@
+{
+  "_id": "aq4FFQL80DlYl1lh",
+  "_key": "!items!aq4FFQL80DlYl1lh",
+  "name": "Clairvoyance",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (2) and Focus (1) in Zeal",
+    "adrenalineCost": 0,
+    "description": "<p>With a successful Spirit (Zeal) Test you sense things that cannot normally be seen or heard, such as what lies around a corner or behind a locked door; the GM sets the DN by range and distractions.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

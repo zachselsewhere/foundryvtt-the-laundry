@@ -1,0 +1,23 @@
+{
+  "_id": "0f5Uc45S7oQedIbv",
+  "_key": "!items!0f5Uc45S7oQedIbv",
+  "name": "Demolitions Expert",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Engineering",
+    "adrenalineCost": 0,
+    "description": "<p>When you use an explosive or a weapon with the Blast Trait, choose a number of targets equal to your Focus in Engineering to be unaffected by the blast.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

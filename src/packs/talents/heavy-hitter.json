@@ -1,0 +1,23 @@
+{
+  "_id": "p9ErcrE2Xfci09SV",
+  "_key": "!items!p9ErcrE2Xfci09SV",
+  "name": "Heavy Hitter",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Your Unarmed strikes deal 1 + S Damage, gain the Crushing Trait, and lose the Ineffective Trait.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

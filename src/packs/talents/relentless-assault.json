@@ -1,0 +1,23 @@
+{
+  "_id": "D7D9fnFyO8r1Lebj",
+  "_key": "!items!D7D9fnFyO8r1Lebj",
+  "name": "Relentless Assault",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Close Combat Skill",
+    "adrenalineCost": 0,
+    "description": "<p>While wielding a melee weapon in each hand, your Melee increases by one step.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

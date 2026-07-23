@@ -1,0 +1,23 @@
+{
+  "_id": "cgR9SeVna5JZ2HKD",
+  "_key": "!items!cgR9SeVna5JZ2HKD",
+  "name": "Hurler",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Body (2), Training (1) or Focus (1) in Athletics",
+    "adrenalineCost": 0,
+    "description": "<p>When you throw an item or weapon, its Range increases by one step.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

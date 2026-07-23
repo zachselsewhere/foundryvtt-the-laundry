@@ -1,0 +1,23 @@
+{
+  "_id": "aK2uoyklbvwUBJTL",
+  "_key": "!items!aK2uoyklbvwUBJTL",
+  "name": "Orientation",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You always know which way is north and how to reach civilisation. In a familiar space you can find anything in 1 Action; in a dimension with alien spatial laws you adapt in 1 minute, and can only become lost through powerful magic or divine intervention.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

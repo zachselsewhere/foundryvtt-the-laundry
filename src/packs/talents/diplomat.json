@@ -1,0 +1,23 @@
+{
+  "_id": "dcehdmG1axvKcqGS",
+  "_key": "!items!dcehdmG1axvKcqGS",
+  "name": "Diplomat",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to resolve conflict, gauge moods and intentions, and detect lies; you are also generally respected and treated courteously even by those who dislike you.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

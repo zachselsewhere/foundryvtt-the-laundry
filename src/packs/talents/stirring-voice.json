@@ -1,0 +1,23 @@
+{
+  "_id": "00PGYBwO3CWAkeh8",
+  "_key": "!items!00PGYBwO3CWAkeh8",
+  "name": "Stirring Voice",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Presence",
+    "adrenalineCost": 0,
+    "description": "<p>When you take a Help Action, you can supply bonus dice from your Presence Training instead of the Skill being tested.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

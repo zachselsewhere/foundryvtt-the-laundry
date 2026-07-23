@@ -1,0 +1,23 @@
+{
+  "_id": "j2g2iNauoHjNQmHe",
+  "_key": "!items!j2g2iNauoHjNQmHe",
+  "name": "Take Aim",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Dexterity",
+    "adrenalineCost": 0,
+    "description": "<p>As an Action, aim at a visible target; until the end of your next turn your Accuracy against it increases by steps equal to your Focus in Dexterity. The effect ends early if you take any Action other than attacking that target.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

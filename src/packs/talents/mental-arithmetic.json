@@ -1,0 +1,23 @@
+{
+  "_id": "UQyDjtdmlcRa6W1R",
+  "_key": "!items!UQyDjtdmlcRa6W1R",
+  "name": "Mental Arithmetic",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (2) in Academics",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Mind (Academics) Tests involving mathematics or calculations, and negate the Complexity penalty when casting spells with mental magic.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "ucxptD74ATlvi4hy",
+  "_key": "!items!ucxptD74ATlvi4hy",
+  "name": "Guts",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Resolve",
+    "adrenalineCost": 0,
+    "description": "<p>Gain +1 Toughness for every level of Training you have in the Resolve Skill.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

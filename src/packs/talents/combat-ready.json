@@ -1,0 +1,23 @@
+{
+  "_id": "xrllZUd56ahvrtK8",
+  "_key": "!items!xrllZUd56ahvrtK8",
+  "name": "Combat Ready",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain a +2 bonus to Initiative and you can never be Surprised in combat; each additional time taken grants a further +2. <em>(Can be taken more than once.)</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

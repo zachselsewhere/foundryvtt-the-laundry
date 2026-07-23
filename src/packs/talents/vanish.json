@@ -1,0 +1,23 @@
+{
+  "_id": "dVUiLgkyQipAXSWz",
+  "_key": "!items!dVUiLgkyQipAXSWz",
+  "name": "Vanish",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Stealth",
+    "adrenalineCost": 0,
+    "description": "<p>You can blend into your environment and attempt to hide even when there is no cover or shadow.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

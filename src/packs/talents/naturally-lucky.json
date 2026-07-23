@@ -1,0 +1,23 @@
+{
+  "_id": "9z7OUY2m0GT7pCpu",
+  "_key": "!items!9z7OUY2m0GT7pCpu",
+  "name": "Naturally Lucky",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When you complete a Rest, roll 2d6 against the GM's 1d6. If your total is less than or equal to the GM's roll, Threat increases by 1; if greater, you gain 2 Points of Luck.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

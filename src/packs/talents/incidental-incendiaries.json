@@ -1,0 +1,23 @@
+{
+  "_id": "5UzyjwWDzVOWgVlH",
+  "_key": "!items!5UzyjwWDzVOWgVlH",
+  "name": "Incidental Incendiaries",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (2) in Engineering",
+    "adrenalineCost": 0,
+    "description": "<p>During a Rest, make a DN 5:1 Mind (Engineering) Test to craft improvised incendiaries (Fire Bombs creating Major Hazards); each success yields one, up to your combined Training and Focus in Engineering. If knocked Prone, disarmed, or hurt by a fall while carrying them, make a DN 5:1 Body (Reflexes) Test or trigger one in your Zone.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

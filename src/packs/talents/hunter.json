@@ -1,0 +1,23 @@
+{
+  "_id": "vZhhV74LOb1Itiux",
+  "_key": "!items!vZhhV74LOb1Itiux",
+  "name": "Hunter",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to track, find, trap, or hunt creatures. Choose a terrain type (Desert, Forest, Farmland, Polar, or Urban); while travelling there you can always find a secure resting spot and cannot be Surprised while resting in it.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "GSkjGUQpwyqPWtOE",
+  "_key": "!items!GSkjGUQpwyqPWtOE",
+  "name": "Careful Casting",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (2) in Magic",
+    "adrenalineCost": 0,
+    "description": "<p>When rolling on the Computational Complication or Magical Mishap Table, spend 1 Luck to reroll, but you must accept the second result.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "1evhHa7uIhff0eQz",
+  "_key": "!items!1evhHa7uIhff0eQz",
+  "name": "Hard to Kill",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>The first Death Test you fail in combat does not raise the DN; subsequent failed Tests increase it as usual.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "WhDRlcSXpv9IiKgM",
+  "_key": "!items!WhDRlcSXpv9IiKgM",
+  "name": "Crack Shot",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (2) and Focus (2) in Ranged Skill",
+    "adrenalineCost": 0,
+    "description": "<p>Deal +1 Damage whenever you take the Called Shot Action.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

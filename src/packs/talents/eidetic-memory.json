@@ -1,0 +1,23 @@
+{
+  "_id": "bBfmPsQe5WE1juRU",
+  "_key": "!items!bBfmPsQe5WE1juRU",
+  "name": "Eidetic Memory",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Recall the major elements of any event with near-perfect accuracy, though a Test (Skill and DN set by the GM) may be needed for fine details.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "yh6CFaYPBqvavq0y",
+  "_key": "!items!yh6CFaYPBqvavq0y",
+  "name": "Dogged Pursuer",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Athletics",
+    "adrenalineCost": 0,
+    "description": "<p>Whenever you are involved in an on-foot Pursuit, you have Advantage on your Body (Athletics) Tests.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

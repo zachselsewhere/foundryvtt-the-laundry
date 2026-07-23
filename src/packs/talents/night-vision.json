@@ -1,0 +1,23 @@
+{
+  "_id": "tctcw1x58ae6WOGx",
+  "_key": "!items!tctcw1x58ae6WOGx",
+  "name": "Night Vision",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You do not suffer Disadvantage on sight-based Tests in low light or darkness.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

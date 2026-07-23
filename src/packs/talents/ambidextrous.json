@@ -1,0 +1,23 @@
+{
+  "_id": "xskogEI1YjtfGxAv",
+  "_key": "!items!xskogEI1YjtfGxAv",
+  "name": "Ambidextrous",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When dual-wielding and making an Attack, add 1d6 to your dice pool before splitting the pool between weapons.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

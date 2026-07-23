@@ -1,0 +1,23 @@
+{
+  "_id": "vWADqiWoBksznhCP",
+  "_key": "!items!vWADqiWoBksznhCP",
+  "name": "Dig Deep",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Spirit (3), Training (1) and Focus (1) in Resolve",
+    "adrenalineCost": 0,
+    "description": "<p>While both your Adrenaline and Toughness are at 0, use a Free Action to regain 1 Adrenaline, once per round.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

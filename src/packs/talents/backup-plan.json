@@ -1,0 +1,23 @@
+{
+  "_id": "WMZPoOnxBr6jCX2m",
+  "_key": "!items!WMZPoOnxBr6jCX2m",
+  "name": "Backup Plan",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Mind (3)",
+    "adrenalineCost": 0,
+    "description": "<p>If you fail a Test on which one die was a 1, reroll the Test but raise its Complexity by 1; usable only once until you Take a Breather or complete a Rest.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

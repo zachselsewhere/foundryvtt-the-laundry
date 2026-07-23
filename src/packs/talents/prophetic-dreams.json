@@ -1,0 +1,23 @@
+{
+  "_id": "7WUVyI8v3JDCVeLy",
+  "_key": "!items!7WUVyI8v3JDCVeLy",
+  "name": "Prophetic Dreams",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>At the end of a Rest, roll 2d6 on the Prophetic Dreams table: high results reveal a truth or clue about your or an ally's Goals or KPI, while a 2 foretells Case Nightmare Green, denying the Rest's benefits and raising Threat by 1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

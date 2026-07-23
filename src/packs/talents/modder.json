@@ -1,0 +1,23 @@
+{
+  "_id": "eJC2VcAucahzxSJO",
+  "_key": "!items!eJC2VcAucahzxSJO",
+  "name": "Modder",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) and Training (1) in Computers",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Mind (Technology) Tests using your personal computer or any device you've customised for an hour. Such devices can't be possessed by entities of a Level at or below your Computers Training, and you ignore your first roll on the Computational Complication Table each mission.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

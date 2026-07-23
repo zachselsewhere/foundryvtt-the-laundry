@@ -1,0 +1,23 @@
+{
+  "_id": "Qf6Kt9YH6f70e2Cg",
+  "_key": "!items!Qf6Kt9YH6f70e2Cg",
+  "name": "Counterattack",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (2) in Reflexes and Close Combat Skill",
+    "adrenalineCost": 0,
+    "description": "<p>Once per turn, when an enemy hits you with a melee Attack, immediately use a Free Action to Attack that enemy if it is within range.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

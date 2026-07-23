@@ -1,0 +1,23 @@
+{
+  "_id": "HRAc9pm9Yetm0sIe",
+  "_key": "!items!HRAc9pm9Yetm0sIe",
+  "name": "Affinity With Intricacies",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Dexterity, and Focus (1) in either Engineering or Technology",
+    "adrenalineCost": 0,
+    "description": "<p>When making a Test to work with the delicate internals of intricate machinery or technology, double the bonus from any Focus in the Skill being tested.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

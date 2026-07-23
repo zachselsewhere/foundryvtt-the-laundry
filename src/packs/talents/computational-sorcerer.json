@@ -1,0 +1,23 @@
+{
+  "_id": "pkcvI1RVMwMEl6kH",
+  "_key": "!items!pkcvI1RVMwMEl6kH",
+  "name": "Computational Sorcerer",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Magic",
+    "adrenalineCost": 0,
+    "description": "<p>You can cast spells via computational sorcery or mental magic; choose 4 spells you know when first taken, plus 2 more with each additional purchase. <em>(Can be taken more than once.)</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

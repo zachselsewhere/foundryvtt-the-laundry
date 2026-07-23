@@ -1,0 +1,23 @@
+{
+  "_id": "dtZnzk7rNbuvZ3bt",
+  "_key": "!items!dtZnzk7rNbuvZ3bt",
+  "name": "Duelist",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (2) and Focus (2) in Close Combat Skill",
+    "adrenalineCost": 0,
+    "description": "<p>If only one enemy and no allies are within Close Range of you, your Melee and Defence each increase one step against that enemy until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

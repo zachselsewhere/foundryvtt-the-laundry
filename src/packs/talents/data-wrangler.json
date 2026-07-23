@@ -1,0 +1,23 @@
+{
+  "_id": "ryLtsFN2DFyjhq2c",
+  "_key": "!items!ryLtsFN2DFyjhq2c",
+  "name": "Data Wrangler",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Academics or Computers",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to extract intelligence from huge data sources; spend an hour immersing yourself in the data first to maximise successes as if you had spent a point of Luck.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

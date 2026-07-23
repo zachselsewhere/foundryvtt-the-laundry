@@ -1,0 +1,23 @@
+{
+  "_id": "82rsCIsIQ7Ob18c9",
+  "_key": "!items!82rsCIsIQ7Ob18c9",
+  "name": "Counsellor",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Presence",
+    "adrenalineCost": 0,
+    "description": "<p>As an Action, target a creature in Close Range with a DN 4:1 Spirit (Presence) Test to restore 1 Toughness per success (once per day each). After a roughly six-hour Rest you can also treat the group's Psychological Injuries with a DN 5:X Spirit (Presence) Test.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

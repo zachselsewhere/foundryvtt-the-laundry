@@ -1,0 +1,23 @@
+{
+  "_id": "DZa3EHfKOupAIFR7",
+  "_key": "!items!DZa3EHfKOupAIFR7",
+  "name": "Iron Stomach",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You are immune to Weakened Conditions from toxins or foul smells and gain Advantage on Tests to resist poison and disease.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

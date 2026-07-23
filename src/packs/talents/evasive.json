@@ -1,0 +1,23 @@
+{
+  "_id": "VO7XM74cBorSEbUq",
+  "_key": "!items!VO7XM74cBorSEbUq",
+  "name": "Evasive",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Athletics and Reflexes",
+    "adrenalineCost": 0,
+    "description": "<p>After using your Move to leave one Zone and enter another, your Defence increases one step until your next turn, and the Dodge Action raises your Defence two steps instead of one.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

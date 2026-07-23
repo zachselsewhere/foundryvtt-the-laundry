@@ -1,0 +1,23 @@
+{
+  "_id": "SPYVVZzIkEw9tu4o",
+  "_key": "!items!SPYVVZzIkEw9tu4o",
+  "name": "Underdog",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>If two or more enemies are within Close Range at the start of your turn, your Melee increases one step until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

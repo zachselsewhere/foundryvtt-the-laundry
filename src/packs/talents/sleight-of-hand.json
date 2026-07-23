@@ -1,0 +1,23 @@
+{
+  "_id": "j1dKQcP6AR6bQtot",
+  "_key": "!items!j1dKQcP6AR6bQtot",
+  "name": "Sleight Of Hand",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You gain Advantage on Tests to distract, misdirect, steal, or hide small objects, and can keep a palm-sized object concealed even after being thoroughly searched.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

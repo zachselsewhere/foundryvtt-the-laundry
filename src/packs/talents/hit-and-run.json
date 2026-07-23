@@ -1,0 +1,23 @@
+{
+  "_id": "SA2SJter64CtolKt",
+  "_key": "!items!SA2SJter64CtolKt",
+  "name": "Hit and Run",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Once per turn, after dealing Damage with a melee attack, you may move to an adjacent Zone as a Free Action.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

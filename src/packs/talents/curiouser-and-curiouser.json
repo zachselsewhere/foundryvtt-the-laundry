@@ -1,0 +1,23 @@
+{
+  "_id": "5JAnbYJ3VdP7qt2P",
+  "_key": "!items!5JAnbYJ3VdP7qt2P",
+  "name": "Curiouser And Curiouser",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Any Tests made to look for clues or to investigate are at Advantage.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

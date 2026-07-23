@@ -1,0 +1,23 @@
+{
+  "_id": "MWTLzGV4VjdOdTSI",
+  "_key": "!items!MWTLzGV4VjdOdTSI",
+  "name": "Covering Fire",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) or Focus (1) in Ranged Skill, a ranged weapon",
+    "adrenalineCost": 0,
+    "description": "<p>Choose a Zone in weapon range and make a DN 4:1 Body (Ranged Skill) Test; each enemy there makes an Opposed DN 4:1 Body (Reflexes) Test, taking Damage equal to the difference in successes on a failure, or diving to cover and taking none if they pass.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

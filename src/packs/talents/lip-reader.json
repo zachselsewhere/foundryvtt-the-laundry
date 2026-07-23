@@ -1,0 +1,23 @@
+{
+  "_id": "OvdKpJikyRwI1aZ8",
+  "_key": "!items!OvdKpJikyRwI1aZ8",
+  "name": "Lip Reader",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Intuition",
+    "adrenalineCost": 0,
+    "description": "<p>You can read the lips of any character whose face you can see within Long Range; the GM may call for a Mind (Intuition) Test in difficult conditions.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

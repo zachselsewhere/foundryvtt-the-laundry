@@ -1,0 +1,23 @@
+{
+  "_id": "0DbngWnoP0iWHpry",
+  "_key": "!items!0DbngWnoP0iWHpry",
+  "name": "Pressing Attack",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) or Focus (1) in Might",
+    "adrenalineCost": 0,
+    "description": "<p>If you roll a 6 on a melee Attack (after determining Damage), you may use a Free Action to attempt to Shove the target, optionally knocking them Prone instead of pushing them away.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

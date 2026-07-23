@@ -1,0 +1,23 @@
+{
+  "_id": "JxPdFVbxgcjL0Vr0",
+  "_key": "!items!JxPdFVbxgcjL0Vr0",
+  "name": "Tinkerer",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Engineering",
+    "adrenalineCost": 0,
+    "description": "<p>The Complexity of Tests to modify or repair existing items (but not to create new ones) is reduced by 1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

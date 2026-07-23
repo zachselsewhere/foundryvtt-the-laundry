@@ -1,0 +1,23 @@
+{
+  "_id": "757L4373OLCfg5X6",
+  "_key": "!items!757L4373OLCfg5X6",
+  "name": "Good Cop",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Fast Talk",
+    "adrenalineCost": 0,
+    "description": "<p>After a successful Fast Talk Test against a target, other characters' Presence Tests against that target double their Skill Training for the rest of the day.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

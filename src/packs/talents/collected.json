@@ -1,0 +1,23 @@
+{
+  "_id": "yPv0A8PJCGC5Hzhi",
+  "_key": "!items!yPv0A8PJCGC5Hzhi",
+  "name": "Collected",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Resolve",
+    "adrenalineCost": 0,
+    "description": "<p>Immediately make a DN 6:1 Mind (Resolve) Test to resist becoming Stunned from a failed Test or from supernaturally induced confusion.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

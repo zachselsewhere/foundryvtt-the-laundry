@@ -1,0 +1,23 @@
+{
+  "_id": "AI5f1qIc9nChu1zB",
+  "_key": "!items!AI5f1qIc9nChu1zB",
+  "name": "Codemaster",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Computers",
+    "adrenalineCost": 0,
+    "description": "<p>You can read computer code at a glance and know what it does; gain Advantage on Tests to program, hack, or debug code.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

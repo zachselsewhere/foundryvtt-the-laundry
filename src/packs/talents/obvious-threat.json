@@ -1,0 +1,23 @@
+{
+  "_id": "AT73WNUghSkJ4OfP",
+  "_key": "!items!AT73WNUghSkJ4OfP",
+  "name": "Obvious Threat",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (2) in Presence",
+    "adrenalineCost": 0,
+    "description": "<p>While within Close Range of an enemy, its Defence decreases one step against all Attacks other than yours.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "njLA93s6xZtR41Nf",
+  "_key": "!items!njLA93s6xZtR41Nf",
+  "name": "Evasive Driving",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Licence",
+    "adrenalineCost": 0,
+    "description": "<p>While you are driving, the vehicle's Defence increases one step and you ignore the Speed penalty for piloting through Difficult Terrain.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "I8X8lxiugscXBevY",
+  "_key": "!items!I8X8lxiugscXBevY",
+  "name": "Tech-Savvy",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Technology",
+    "adrenalineCost": 0,
+    "description": "<p>When operating or repairing electronic technology, including computers, you double the dice gained from your Training in the Skill being Tested.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

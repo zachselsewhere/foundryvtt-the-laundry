@@ -1,0 +1,23 @@
+{
+  "_id": "oiqSrvkuTulOzE3a",
+  "_key": "!items!oiqSrvkuTulOzE3a",
+  "name": "Departmental Liaison",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Fast Talk",
+    "adrenalineCost": 0,
+    "description": "<p>When making a Bureaucracy Test to acquire information from other teams or organisations, add bonus dice equal to your Training in Fast Talk.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

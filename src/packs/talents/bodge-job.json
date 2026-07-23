@@ -1,0 +1,23 @@
+{
+  "_id": "DQanehAFWhU75lWy",
+  "_key": "!items!DQanehAFWhU75lWy",
+  "name": "Bodge Job",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Engineering or Technology",
+    "adrenalineCost": 0,
+    "description": "<p>Once per mission, improvise a common weapon or piece of conventional spy gear from materials on hand with a Mind (Engineering or Technology) Test at the item's usual requisition DN; the device stops working after an hour of use.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

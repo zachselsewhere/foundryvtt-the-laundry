@@ -1,0 +1,23 @@
+{
+  "_id": "2uylP4uIRDJaYa0H",
+  "_key": "!items!2uylP4uIRDJaYa0H",
+  "name": "Combat Sense",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Awareness and Intuition",
+    "adrenalineCost": 0,
+    "description": "<p>You suffer no penalty to Melee, Accuracy, or Defence when Blinded or attacked by a hidden creature.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

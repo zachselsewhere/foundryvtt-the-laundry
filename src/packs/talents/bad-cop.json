@@ -1,0 +1,23 @@
+{
+  "_id": "cKs3nr8bbAq61NyF",
+  "_key": "!items!cKs3nr8bbAq61NyF",
+  "name": "Bad Cop",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Presence",
+    "adrenalineCost": 0,
+    "description": "<p>When you succeed on a Presence Test against a target, any Fast Talk Tests other characters make against that target double their Skill Training for the rest of the day.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

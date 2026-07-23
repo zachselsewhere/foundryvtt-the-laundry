@@ -1,0 +1,23 @@
+{
+  "_id": "5aDa9Ulqu0rPwJLZ",
+  "_key": "!items!5aDa9Ulqu0rPwJLZ",
+  "name": "Status",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Your promotion lets you gain Advantage on Tests when throwing your weight around to requisition equipment or support, or to boss others. Taking it again as you rise increases the benefit. <em>(Can be taken more than once.)</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

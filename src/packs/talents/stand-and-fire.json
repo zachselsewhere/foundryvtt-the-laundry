@@ -1,0 +1,23 @@
+{
+  "_id": "zsgn8rW3aM8pQamX",
+  "_key": "!items!zsgn8rW3aM8pQamX",
+  "name": "Stand And Fire",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Once per round, when an enemy moves into your Zone, you can use a Free Action to immediately make a ranged Attack against it.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

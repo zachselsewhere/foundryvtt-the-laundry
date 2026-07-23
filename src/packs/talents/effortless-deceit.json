@@ -1,0 +1,23 @@
+{
+  "_id": "6wcAArE0LBdYbIiO",
+  "_key": "!items!6wcAArE0LBdYbIiO",
+  "name": "Effortless Deceit",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to deceive others; you are also unaffected by non-magical effects that compel truth and ignore any Truth Geas cast below your Training in Resolve.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

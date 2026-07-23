@@ -1,0 +1,23 @@
+{
+  "_id": "vNCT3vNMCvENpPXS",
+  "_key": "!items!vNCT3vNMCvENpPXS",
+  "name": "Empathic",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Intuition",
+    "adrenalineCost": 0,
+    "description": "<p>When interacting socially, if reading someone's feelings would help a Test, add 1d6 per level of Training in Intuition; you also double the benefit of your Intuition Training when identifying someone's mood.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "hnJDgq0qTYbXmtb5",
+  "_key": "!items!hnJDgq0qTYbXmtb5",
+  "name": "Stay On Your Toes",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Your Defence increases one step against Attacks made by enemies lower than you in the Initiative order.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

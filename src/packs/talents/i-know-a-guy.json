@@ -1,0 +1,23 @@
+{
+  "_id": "dlr6NmUddXhcYadw",
+  "_key": "!items!dlr6NmUddXhcYadw",
+  "name": "I Know a Guy",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Once per session, call on your network of contacts to gain Help worth +3d6 on an appropriate Test, or have them perform a harmless mundane favour for you.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

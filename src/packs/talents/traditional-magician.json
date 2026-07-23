@@ -1,0 +1,23 @@
+{
+  "_id": "Endfh8hwGLZEJSXA",
+  "_key": "!items!Endfh8hwGLZEJSXA",
+  "name": "Traditional Magician",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Magic",
+    "adrenalineCost": 0,
+    "description": "<p>You can cast spells using traditional or mental magic; you learn 4 spells when you first take this Talent, and each additional purchase lets you learn 2 more. <em>(Can be taken more than once.)</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

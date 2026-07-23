@@ -1,0 +1,23 @@
+{
+  "_id": "ykfTR25edPJhT4i2",
+  "_key": "!items!ykfTR25edPJhT4i2",
+  "name": "Scholar",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Academics or Science",
+    "adrenalineCost": 0,
+    "description": "<p>Choose a subject you have mastered; you double the dice gained from your Training in Academics or Science on related Tests. Taking it again lets you choose another subject. <em>(Can be taken more than once.)</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "RIciEPvrjprDbb1N",
+  "_key": "!items!RIciEPvrjprDbb1N",
+  "name": "Observant",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to spot hidden enemies, increase your Natural Awareness by 1, and suffer no Defence penalty when attacked by a hidden creature.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

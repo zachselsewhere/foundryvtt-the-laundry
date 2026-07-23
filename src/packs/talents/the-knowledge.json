@@ -1,0 +1,23 @@
+{
+  "_id": "j0hTbSprtKKM7bPc",
+  "_key": "!items!j0hTbSprtKKM7bPc",
+  "name": "The Knowledge",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Choose a single city; you double the dice from your Survival Training on Tests to navigate or find a place within that city.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

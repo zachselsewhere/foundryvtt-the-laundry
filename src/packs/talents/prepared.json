@@ -1,0 +1,23 @@
+{
+  "_id": "faBYtXmFq6Qnt3aJ",
+  "_key": "!items!faBYtXmFq6Qnt3aJ",
+  "name": "Prepared",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Awareness",
+    "adrenalineCost": 0,
+    "description": "<p>Add 1d6 to any Test you make during your first turn in combat.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

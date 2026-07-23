@@ -1,0 +1,23 @@
+{
+  "_id": "Nnsebawp3Vhx73db",
+  "_key": "!items!Nnsebawp3Vhx73db",
+  "name": "Crushing Blow",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Body (3), a Crushing weapon",
+    "adrenalineCost": 0,
+    "description": "<p>Rolling a 6 on an Attack with a Crushing weapon against a Large or smaller creature leaves the target Stunned until the end of its next turn.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

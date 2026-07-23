@@ -1,0 +1,23 @@
+{
+  "_id": "tdu2kFKD6q6JVuqm",
+  "_key": "!items!tdu2kFKD6q6JVuqm",
+  "name": "Misfiler",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Bureaucracy",
+    "adrenalineCost": 0,
+    "description": "<p>You can make information or evidence vanish into the archives without breaking your Laundry geas; recovering it requires beating you at an Opposed Mind (Bureaucracy) Test in which you have Advantage, or compelling you through sorcery.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

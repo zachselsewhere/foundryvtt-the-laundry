@@ -1,0 +1,23 @@
+{
+  "_id": "ORnNcqcMoMify5jj",
+  "_key": "!items!ORnNcqcMoMify5jj",
+  "name": "Caregiver",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When making a Test to restore Toughness or remove Injuries or Conditions from someone other than yourself, double the dice gained from any Training in the Skill, including supernatural healing.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "YqRvR2VmtBJlGVNJ",
+  "_key": "!items!YqRvR2VmtBJlGVNJ",
+  "name": "Voice Of Authority",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Your commanding presence gives you Advantage on Tests to instruct or persuade a group of people.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

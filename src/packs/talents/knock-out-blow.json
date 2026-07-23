@@ -1,0 +1,23 @@
+{
+  "_id": "McorMSrAMHOFFR4g",
+  "_key": "!items!McorMSrAMHOFFR4g",
+  "name": "Knock-Out Blow",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (2) in Stealth and Close Combat",
+    "adrenalineCost": 0,
+    "description": "<p>On a successful Called Shot with your hands or a blunt melee weapon against an unaware target, you may Incapacitate them instead of dealing Damage. They stay Incapacitated for minutes equal to the Damage the attack would have dealt, or until someone in Immediate Range wakes them. Inhuman biology is immune.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

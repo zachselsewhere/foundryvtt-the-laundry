@@ -1,0 +1,23 @@
+{
+  "_id": "w1G533oy35MTbMcl",
+  "_key": "!items!w1G533oy35MTbMcl",
+  "name": "Iron Lung",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Body (2)",
+    "adrenalineCost": 0,
+    "description": "<p>You can hold your breath and endure a lack of air for twice as long as normal.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

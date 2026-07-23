@@ -1,0 +1,23 @@
+{
+  "_id": "h84veYbM8BhgBbZ3",
+  "_key": "!items!h84veYbM8BhgBbZ3",
+  "name": "Opportunist",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Once per round, make an immediate Attack when an opponent tries to move away from you.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

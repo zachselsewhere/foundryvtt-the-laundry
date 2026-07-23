@@ -1,0 +1,23 @@
+{
+  "_id": "SO2u8TsBbsTJV2Ma",
+  "_key": "!items!SO2u8TsBbsTJV2Ma",
+  "name": "Swagger",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You gain Advantage on Tests where projecting confidence matters, and your air of assurance leads most people to accept your outrageous claims without calling your bluff.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

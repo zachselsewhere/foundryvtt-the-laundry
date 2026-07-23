@@ -1,0 +1,23 @@
+{
+  "_id": "mm5ckscrM8r1jaB8",
+  "_key": "!items!mm5ckscrM8r1jaB8",
+  "name": "Conditioned To Fight",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Body (3), Focus (2) in Reflexes",
+    "adrenalineCost": 0,
+    "description": "<p>When determining your Initiative, you may use your Body instead of Mind.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "pTeeHnB1Lxm9dt9R",
+  "_key": "!items!pTeeHnB1Lxm9dt9R",
+  "name": "Speed Freak",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (2) in Reflexes, Licence",
+    "adrenalineCost": 0,
+    "description": "<p>While driving, you gain an extra Action in a round without having to spend Adrenaline.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

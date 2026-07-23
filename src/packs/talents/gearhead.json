@@ -1,0 +1,23 @@
+{
+  "_id": "YxK1KWh86LtEqmqM",
+  "_key": "!items!YxK1KWh86LtEqmqM",
+  "name": "Gearhead",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Reduces the Difficulty of vehicle repairs by 1, and lets you repair a wrecked vehicle one extra time per adventure before it is written off.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

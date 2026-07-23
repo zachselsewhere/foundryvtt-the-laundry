@@ -1,0 +1,23 @@
+{
+  "_id": "yL4QeZxoJbVoPkpm",
+  "_key": "!items!yL4QeZxoJbVoPkpm",
+  "name": "Field Strip",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Ranged",
+    "adrenalineCost": 0,
+    "description": "<p>When you successfully Grapple, Shove, or make a Called Shot to the arms against a target in Close Range, you take their gun and may disassemble it as a Free Action; reassembly takes 1 minute for others, but you can do it in 1 Action.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

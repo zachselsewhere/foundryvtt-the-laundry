@@ -1,0 +1,23 @@
+{
+  "_id": "Zzduu06F6A5T0qdf",
+  "_key": "!items!Zzduu06F6A5T0qdf",
+  "name": "Percussive Maintenance",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Engineering",
+    "adrenalineCost": 0,
+    "description": "<p>When making a desperate last-ditch repair, double the dice from your Engineering Training. A device fixed this way works for one use, then breaks again until properly repaired between missions.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

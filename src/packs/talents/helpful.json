@@ -1,0 +1,23 @@
+{
+  "_id": "B9knXzv8TPXo6Omu",
+  "_key": "!items!B9knXzv8TPXo6Omu",
+  "name": "Helpful",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When you take a Help Action, the recipient adds one extra die to their pool.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

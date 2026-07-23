@@ -33,9 +33,12 @@ jobs:
 
       - name: Compile compendium packs (src/packs -> packs, LevelDB)
         run: |
-          npx --yes @foundryvtt/foundryvtt-cli@latest package pack \
-            --id the-laundry --type System -n tools-of-the-trade \
-            --in src/packs/tools-of-the-trade --out packs
+          for dir in src/packs/*/; do
+            name="$(basename "$dir")"
+            npx --yes @foundryvtt/foundryvtt-cli@latest package pack \
+              --id the-laundry --type System -n "$name" \
+              --in "$dir" --out packs
+          done
 
       - name: Build system zip (files at archive root)
         run: |

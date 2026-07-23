@@ -1,0 +1,23 @@
+{
+  "_id": "tIRNaFYaHRwDw1md",
+  "_key": "!items!tIRNaFYaHRwDw1md",
+  "name": "Ruthless",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Resolve",
+    "adrenalineCost": 0,
+    "description": "<p>When you win an Opposed Test, add 1 success to the result for each level of Training you have in Resolve.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

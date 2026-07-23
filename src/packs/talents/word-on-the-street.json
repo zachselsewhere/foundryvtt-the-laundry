@@ -1,0 +1,23 @@
+{
+  "_id": "YD1wl7NLUQdAKIah",
+  "_key": "!items!YD1wl7NLUQdAKIah",
+  "name": "Word On The Street",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Academics",
+    "adrenalineCost": 0,
+    "description": "<p>You gain Advantage on Tests to learn local news and rumours, always recognise local celebrities, and can instantly recall the latest gossip about them.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

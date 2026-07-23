@@ -1,0 +1,23 @@
+{
+  "_id": "w2o0bNLqNl1r3Lou",
+  "_key": "!items!w2o0bNLqNl1r3Lou",
+  "name": "Master of Disguise",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Disguise Kit",
+    "adrenalineCost": 0,
+    "description": "<p>Gain Advantage on Tests to disguise yourself or impersonate someone. When taken, you establish an airtight cover identity with its own name, appearance, and acquaintances, which you can reinforce during downtime.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

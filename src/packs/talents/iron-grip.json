@@ -1,0 +1,23 @@
+{
+  "_id": "FTHSaMx4zHpaHxUB",
+  "_key": "!items!FTHSaMx4zHpaHxUB",
+  "name": "Iron Grip",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Might",
+    "adrenalineCost": 0,
+    "description": "<p>Double the bonus from your Might Training on Tests relying on grip strength (Grapples, Shoves, keeping hold of items, hanging on). You also ignore effects that would make you drop what you're holding.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

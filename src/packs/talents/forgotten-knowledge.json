@@ -1,0 +1,23 @@
+{
+  "_id": "Did2c5zXuTJyeFxT",
+  "_key": "!items!Did2c5zXuTJyeFxT",
+  "name": "Forgotten Knowledge",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Choose Academics, Occult, or Science; Tests with that Skill double the dice from Training, but a failed Test raises Threat by 1 and may open a dangerous link to an alien universe or elder being. Can be taken again for a new Skill each time. <em>(Can be taken more than once.)</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

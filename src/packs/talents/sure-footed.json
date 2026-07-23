@@ -1,0 +1,23 @@
+{
+  "_id": "SuV4q4WgVQnhSWNR",
+  "_key": "!items!SuV4q4WgVQnhSWNR",
+  "name": "Sure-Footed",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>You ignore ground-based Difficult Terrain, and when an effect would knock you Prone you roll 1d6, keeping your feet on a 6. If Prone, you can stand as a Free Action.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "cww8CyU9SF0Yzvk6",
+  "_key": "!items!cww8CyU9SF0Yzvk6",
+  "name": "Up Close And Personal",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (2) in Close Combat Skill",
+    "adrenalineCost": 0,
+    "description": "<p>When making an unarmed attack, or attacking at Close Range with a Subtle melee weapon, your Melee increases one step.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

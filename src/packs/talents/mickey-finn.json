@@ -1,0 +1,23 @@
+{
+  "_id": "OqWpRdLEAGcfq3aA",
+  "_key": "!items!OqWpRdLEAGcfq3aA",
+  "name": "Mickey Finn",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Dexterity",
+    "adrenalineCost": 0,
+    "description": "<p>Once per turn, apply poison to a weapon or drug food or drink as a Free Action, with Advantage on Tests to conceal it. You can never accidentally poison yourself while handling poison.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

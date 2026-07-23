@@ -1,0 +1,23 @@
+{
+  "_id": "eQ0bnvcq6voYRUsw",
+  "_key": "!items!eQ0bnvcq6voYRUsw",
+  "name": "Licence",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>Choose a class of vehicle (motorcycles, cars/vans, trucks, helicopters, or aeroplanes); you're licensed to drive it and gain access to a basic civilian vehicle of that type. Can be taken twice: the first covers cars or motorcycles, the second covers aircraft or exotic transport. <em>(Can be taken more than once.)</em></p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

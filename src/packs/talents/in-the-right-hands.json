@@ -1,0 +1,23 @@
+{
+  "_id": "LbCMj65qQEJ6g8eQ",
+  "_key": "!items!LbCMj65qQEJ6g8eQ",
+  "name": "In the Right Hands",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>A sturdy tool or object solid enough to survive combat loses the Ineffective Trait when you use it as an Improvised Weapon.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

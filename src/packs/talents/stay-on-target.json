@@ -1,0 +1,23 @@
+{
+  "_id": "gwjpZPPMIpYF8c0B",
+  "_key": "!items!gwjpZPPMIpYF8c0B",
+  "name": "Stay On Target",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "None",
+    "adrenalineCost": 0,
+    "description": "<p>When firing a weapon from a moving vehicle, your Accuracy increases one step, and you can make Called Shots with vehicle weaponry against large or larger creatures.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

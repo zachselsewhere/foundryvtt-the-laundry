@@ -1,0 +1,23 @@
+{
+  "_id": "9uifs8xwp7K4LE6f",
+  "_key": "!items!9uifs8xwp7K4LE6f",
+  "name": "Medical Training",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Medicine, suitable tools and supplies",
+    "adrenalineCost": 0,
+    "description": "<p>As an Action, target a creature within Close Range and make a DN 4:1 Mind (Medicine) Test; it recovers 1 Toughness per success, once per day. With a medical kit, a roughly six-hour Rest lets you treat one Physical Injury per character via a DN 5:X Mind (Medicine) Test (X = 1/2/3 by severity) to remove it.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

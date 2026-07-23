@@ -1,0 +1,23 @@
+{
+  "_id": "FqRNjMbNx8EFkoSs",
+  "_key": "!items!FqRNjMbNx8EFkoSs",
+  "name": "Studied Defence",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Awareness",
+    "adrenalineCost": 0,
+    "description": "<p>Spend an Action to study one enemy within Long Range; until your next Rest, your Defence increases one step against that target's attacks. Only one studied target at a time.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

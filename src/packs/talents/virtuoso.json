@@ -1,0 +1,23 @@
+{
+  "_id": "PYlOfNSdgpQmwdj0",
+  "_key": "!items!PYlOfNSdgpQmwdj0",
+  "name": "Virtuoso",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Focus (1) in Presence",
+    "adrenalineCost": 0,
+    "description": "<p>Choose a specific type of performance to specialise in; when you make a Presence Test for that performance, you double the bonus from your Focus in Presence.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

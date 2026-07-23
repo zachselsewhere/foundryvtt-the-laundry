@@ -1,0 +1,23 @@
+{
+  "_id": "7GoGpCQjkEfMpdwP",
+  "_key": "!items!7GoGpCQjkEfMpdwP",
+  "name": "Point Blank Range",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) and Focus (1) in Ranged Skill",
+    "adrenalineCost": 0,
+    "description": "<p>You suffer no Accuracy penalty when firing a ranged weapon at Close Range.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

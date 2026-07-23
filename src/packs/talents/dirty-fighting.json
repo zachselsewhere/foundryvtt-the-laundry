@@ -1,0 +1,23 @@
+{
+  "_id": "vtTEebSsCW3svxQl",
+  "_key": "!items!vtTEebSsCW3svxQl",
+  "name": "Dirty Fighting",
+  "type": "talent",
+  "img": "systems/the-laundry/assets/icons/default-talent.svg",
+  "system": {
+    "talentType": "optional",
+    "requirements": "Training (1) in Close Combat Skill",
+    "adrenalineCost": 0,
+    "description": "<p>When you hit with an unarmed attack you may choose to deal no Damage; if so, the target makes a DN 4:S Body (Fortitude) Test (S equals your successes) or is Blinded or Stunned (your choice) until the start of your next turn.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}
