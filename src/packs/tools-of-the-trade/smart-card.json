@@ -1,0 +1,23 @@
+{
+  "_id": "SdeIsb8Atf7ntJ03",
+  "_key": "!items!SdeIsb8Atf7ntJ03",
+  "name": "Smart Card",
+  "type": "equipment",
+  "img": "icons/svg/key.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>An induction-loop card disguised as a hotel key that runs standard override keys to open hotel-style card locks. Requisition DN 3:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "Zadb2mIR7dmHk7IZ",
+  "_key": "!items!Zadb2mIR7dmHk7IZ",
+  "name": "Gravedust Rig",
+  "type": "itgear",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "dn": "5:2",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>Lets the user converse with the dead through a connected phone.</p>",
+    "description": "<p>A specialised circuit board for communing with the deceased; higher-grade units reach the very long dead. Requires the presence of a corpse and an hour of setup with a Mind (Technology) Test. Strong wards advised. Requisition DN 5:2; Certification Introduction to Applied Occult Computing or higher.</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

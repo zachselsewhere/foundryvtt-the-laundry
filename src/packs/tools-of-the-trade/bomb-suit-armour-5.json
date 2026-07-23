@@ -1,0 +1,23 @@
+{
+  "_id": "25knLmfyP2q4l4rk",
+  "_key": "!items!25knLmfyP2q4l4rk",
+  "name": "Bomb Suit (Armour 5)",
+  "type": "equipment",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>Heavy EOD protection. Provides 5 Armour. Requisition DN 5:1; Requirement Body (4).</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

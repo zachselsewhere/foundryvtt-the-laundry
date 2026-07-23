@@ -1,0 +1,28 @@
+{
+  "_id": "HFW5DTCarUghSj1M",
+  "_key": "!items!HFW5DTCarUghSj1M",
+  "name": "Basilisk Gun",
+  "type": "weapon",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "S+8",
+    "traits": "Blast (3), Brutal",
+    "range": "Line of sight",
+    "equipped": true,
+    "description": "<p>Twin linked cameras running a gorgonism program that turns 0.1% of a target's carbon to silicon — almost invariably lethal. Any opaque barrier or thick fog blocks it; mirrors reflect it (destroying the weapon). Witnesses must pass DN 4:2 Mind (Resolve) or become Terrified. Requisition DN 5:2; Certification COWEU Level 2+.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

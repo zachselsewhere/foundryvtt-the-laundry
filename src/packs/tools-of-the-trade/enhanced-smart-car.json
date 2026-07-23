@@ -1,0 +1,23 @@
+{
+  "_id": "9a22I4NlWdxbhtBC",
+  "_key": "!items!9a22I4NlWdxbhtBC",
+  "name": "Enhanced Smart Car",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>A two-seater packed with a Level 4 Anti-Magic Ward (while the engine runs), a banishment countermeasure, self-driving recall, amphibious mode (30 kph on water), and a rocket-assisted 500 m leap. Requisition DN 5:2; Requirement driving licence.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

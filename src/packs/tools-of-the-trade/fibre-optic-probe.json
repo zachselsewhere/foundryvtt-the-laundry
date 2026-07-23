@@ -1,0 +1,23 @@
+{
+  "_id": "v5n8aY3gWx2uHqp9",
+  "_key": "!items!v5n8aY3gWx2uHqp9",
+  "name": "Fibre Optic Probe",
+  "type": "equipment",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>An optic fibre with a wide-angle lens in a pen housing that extends ~50 cm to see under doors or through vents; includes a directional mic (normal speech to 50 m, whispers to 5 m). Connects to a laptop or phone. Requisition DN 4:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

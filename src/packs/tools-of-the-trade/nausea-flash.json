@@ -1,0 +1,23 @@
+{
+  "_id": "pAO6J8xHCiB2OMgJ",
+  "_key": "!items!pAO6J8xHCiB2OMgJ",
+  "name": "Nausea Flash",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>A flashlight that emits disorienting coloured light. Targets within 10 m facing it must pass a Body (Resolve) Test or be Incapacitated by nausea for five rounds. Requisition DN 4:1; Certification COWE/COWEU Level 1+.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

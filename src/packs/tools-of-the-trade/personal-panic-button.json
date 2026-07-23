@@ -1,0 +1,23 @@
+{
+  "_id": "VpW1EqyeZM0HgNvA",
+  "_key": "!items!VpW1EqyeZM0HgNvA",
+  "name": "Personal Panic Button",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>A wearable transmitter backed by an enchanted amulet, linked to Laundry security; a code-phrase activates it if the button cannot be pressed. Summons the SCORPION STARE network and an armed watch team. Assigned only, to high-risk personnel not cleared to carry weapons.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

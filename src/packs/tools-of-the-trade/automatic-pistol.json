@@ -1,0 +1,28 @@
+{
+  "_id": "T19ZyfiT46OQzDDK",
+  "_key": "!items!T19ZyfiT46OQzDDK",
+  "name": "Automatic Pistol",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "1+S",
+    "traits": "Close, Loud, Piercing",
+    "range": "Medium",
+    "equipped": true,
+    "description": "<p>A standard semi-automatic handgun. Requisition DN 4:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

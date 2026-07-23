@@ -1,0 +1,28 @@
+{
+  "_id": "EO2stID7RJHnQ7Mx",
+  "_key": "!items!EO2stID7RJHnQ7Mx",
+  "name": "Grenade (Concussion)",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Blast (1), Stunning, Thrown",
+    "range": "Medium",
+    "equipped": true,
+    "description": "<p>A stun grenade that dazes everyone in the Zone. Requisition DN 4:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

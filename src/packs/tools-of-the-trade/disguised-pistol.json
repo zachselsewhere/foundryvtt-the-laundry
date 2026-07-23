@@ -1,0 +1,28 @@
+{
+  "_id": "CDwrsZOnaVeav11X",
+  "_key": "!items!CDwrsZOnaVeav11X",
+  "name": "Disguised Pistol",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Close, Loud, Piercing, Reload, Subtle",
+    "range": "Short",
+    "equipped": true,
+    "description": "<p>A single-shot .32 built into a lighter, pen, or umbrella. For dire emergencies only. Requisition DN 4:1; Certification COWE Level 1+.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

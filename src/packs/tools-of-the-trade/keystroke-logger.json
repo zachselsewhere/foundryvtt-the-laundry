@@ -1,0 +1,23 @@
+{
+  "_id": "fh1CEd8GJ0wdncjQ",
+  "_key": "!items!fh1CEd8GJ0wdncjQ",
+  "name": "Keystroke Logger",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>A coin-sized hardware logger that records every keystroke (including passwords) to internal memory; must be physically installed and later retrieved. Requisition DN 3:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

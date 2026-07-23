@@ -1,0 +1,28 @@
+{
+  "_id": "RQIMT9QIFr7WUdqW",
+  "_key": "!items!RQIMT9QIFr7WUdqW",
+  "name": "Improvised Weapon",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "attackType": "melee",
+    "skill": "closeCombat",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Ineffective; plus Crushing, Piercing, or Slashing",
+    "range": "",
+    "equipped": true,
+    "description": "<p>A table leg, bottle, or fire extinguisher pressed into service. Ineffective (target's Armour doubled, Minor Injuries only) but carries a damage type appropriate to the object.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

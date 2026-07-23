@@ -1,0 +1,23 @@
+{
+  "_id": "rYDOQ45sD0BuG3VN",
+  "_key": "!items!rYDOQ45sD0BuG3VN",
+  "name": "Hard Body Armour — Ceramic/Steel (Armour 3)",
+  "type": "equipment",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>Rigid plate armour. Provides 3 Armour. Requisition DN 4:1; Requirement Body (2).</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

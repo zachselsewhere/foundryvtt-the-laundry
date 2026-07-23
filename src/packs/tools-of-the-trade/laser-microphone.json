@@ -1,0 +1,23 @@
+{
+  "_id": "zTdsCNIF9BJs5Rvg",
+  "_key": "!items!zTdsCNIF9BJs5Rvg",
+  "name": "Laser Microphone",
+  "type": "equipment",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>Bounces an invisible IR laser off a window or mirror to hear conversations inside a room, to 100 m. Must be tripod-mounted; curtains or shutters defeat it. Requisition DN 4:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

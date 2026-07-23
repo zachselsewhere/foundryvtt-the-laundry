@@ -1,0 +1,23 @@
+{
+  "_id": "hBVXAvofyGvPpuui",
+  "_key": "!items!hBVXAvofyGvPpuui",
+  "name": "Gecko Suit",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>A gecko-textured suit that lets the wearer climb any solid flat surface at Slow speed with no climbing Test. Requisition DN 6:1; Certification Advanced Stealth and Evasion.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

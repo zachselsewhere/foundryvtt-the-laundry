@@ -1,0 +1,28 @@
+{
+  "_id": "oB7ZdYajndGSST6r",
+  "_key": "!items!oB7ZdYajndGSST6r",
+  "name": "Assault Rifle",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "2+S",
+    "traits": "Brutal, Loud, Piercing, Two-Handed",
+    "range": "Long",
+    "equipped": true,
+    "description": "<p>Military-grade long arm. Requisition DN 5:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

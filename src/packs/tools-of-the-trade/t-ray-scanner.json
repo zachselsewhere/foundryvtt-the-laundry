@@ -1,0 +1,23 @@
+{
+  "_id": "nuMUQemXq3DUoAsW",
+  "_key": "!items!nuMUQemXq3DUoAsW",
+  "name": "T-Ray Scanner",
+  "type": "equipment",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>A terahertz/IR scanner that sees through ordinary interior walls and clothing to reveal people and concealed weapons out to 10 m. Large and obvious; images are fuzzy. Requisition DN 5:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

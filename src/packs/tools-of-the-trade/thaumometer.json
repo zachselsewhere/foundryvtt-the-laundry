@@ -1,0 +1,30 @@
+{
+  "_id": "i5oPrIqJShkYMwQf",
+  "_key": "!items!i5oPrIqJShkYMwQf",
+  "name": "Thaumometer",
+  "type": "itgear",
+  "img": "icons/svg/radiation.svg",
+  "system": {
+    "dn": "3:2",
+    "target": "",
+    "range": "15 m directional / 5 m all-round",
+    "duration": "",
+    "effect": "<p>Detects thaumic/magical energy, hauntings, possession and active spellcasting; strength only, not nature.</p>",
+    "description": "<p>An occult sensor built into a PDA or smartphone. Directional or non-directional modes. Requisition DN 3:2; Certification Introduction to Applied Occult Computing.</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

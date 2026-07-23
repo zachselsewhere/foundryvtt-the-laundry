@@ -1,0 +1,23 @@
+{
+  "_id": "qJbNOsIUejtkgZv2",
+  "_key": "!items!qJbNOsIUejtkgZv2",
+  "name": "Stab / Spike Vest (Armour 2)",
+  "type": "equipment",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>Overt anti-stab body armour as used by SWAT or OCCULUS. Provides 2 Armour. Requisition DN 3:1; Requirement Body (2).</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

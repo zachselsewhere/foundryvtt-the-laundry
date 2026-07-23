@@ -1,0 +1,28 @@
+{
+  "_id": "KrXlWfo8i9FeZoDA",
+  "_key": "!items!KrXlWfo8i9FeZoDA",
+  "name": "Sword",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "attackType": "melee",
+    "skill": "closeCombat",
+    "pool": 0,
+    "focus": 0,
+    "damage": "1+S",
+    "traits": "Slashing",
+    "range": "",
+    "equipped": true,
+    "description": "<p>A ceremonial or ex-military blade. Rare in the field, but decisive.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

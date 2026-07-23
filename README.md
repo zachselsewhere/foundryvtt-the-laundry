@@ -32,6 +32,25 @@ the **C7d6** dice-pool ruleset and ships a character sheet styled after the prin
   Adrenaline (⌈Spirit/2⌉), and max Injuries (⌈(B+M+S)/2⌉).
 - **Conditions** (Blinded, Charmed, Deafened, Frightened, Incapacitated, Prone, Restrained,
   Stunned, Terrified, Unconscious, Weakened) registered as token status effects.
+- **"Tools of the Trade" compendium** — 50 items from the Operative's Handbook gear chapter
+  (weapons & firearms, body armour, conventional spy gear, and Q Division occult devices).
+  Open the *Tools of the Trade* Item compendium and **drag any entry onto a character** — it
+  lands in the Attacks table (weapons), Possessions (equipment), or IT Equipment (occult
+  devices) automatically.
+
+## Compendium content
+The `Tools of the Trade` pack is authored as diffable source JSON under
+[`src/packs/tools-of-the-trade/`](src/packs/tools-of-the-trade) and compiled into the LevelDB
+pack that Foundry reads (`packs/tools-of-the-trade`). The compiled pack is a build artifact
+(git-ignored); the release workflow rebuilds it automatically. To rebuild locally (e.g. for a
+manual install or after editing an item), run:
+
+```bash
+./tools/build-packs.sh
+```
+
+To add or change gear, edit the JSON in `src/packs/tools-of-the-trade/`, then rebuild and cut
+a release with `./release.sh <version>`.
 
 ## The ruleset (quick reference)
 - **Attributes**: Body, Mind, Spirit (PCs 1–4).

@@ -1,0 +1,28 @@
+{
+  "_id": "tyqRnUrQQeueaXSc",
+  "_key": "!items!tyqRnUrQQeueaXSc",
+  "name": "Grenade (Explosive)",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Blast (3), Brutal, Thrown",
+    "range": "Medium",
+    "equipped": true,
+    "description": "<p>A fragmentation grenade. Requisition DN 5:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

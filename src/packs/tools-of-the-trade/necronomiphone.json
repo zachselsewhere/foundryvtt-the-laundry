@@ -1,0 +1,30 @@
+{
+  "_id": "xxqQbYhSIoCkYFOp",
+  "_key": "!items!xxqQbYhSIoCkYFOp",
+  "name": "Necronomiphone",
+  "type": "itgear",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "dn": "4:2",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>Occult smartphone: Level 1 banishing, binding, entropy manipulation, exorcism, glamour, scrying, and wards at a touch.</p>",
+    "description": "<p>A jailbroken early iPhone loaded with a full suite of occult apps. Simple Level 1 effects activate with a DN 4:1 Mind (Technology) Test and no Magic roll; complex spells still require a normal casting roll. Requisition DN 4:2; Certification Introduction to Applied Occult Computing.</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

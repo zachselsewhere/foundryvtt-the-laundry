@@ -1,0 +1,28 @@
+{
+  "_id": "V9MKJ35NYcOqRqLu",
+  "_key": "!items!V9MKJ35NYcOqRqLu",
+  "name": "Bat / Club",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "attackType": "melee",
+    "skill": "closeCombat",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Crushing, Subtle",
+    "range": "",
+    "equipped": true,
+    "description": "<p>A truncheon, cricket bat, or length of pipe. Easily concealed and dependable.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "WsUSpDJEkrZ1oatj",
+  "_key": "!items!WsUSpDJEkrZ1oatj",
+  "name": "Grenade (Smoke)",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Blast (1), Thrown",
+    "range": "Medium",
+    "equipped": true,
+    "description": "<p>Fills the Zone with smoke, adding the Heavily Obscured trait for a number of Rounds equal to the successes rolled. Requisition DN 4:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

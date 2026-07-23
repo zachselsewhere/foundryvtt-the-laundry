@@ -1,0 +1,30 @@
+{
+  "_id": "06Z2PbZ3y7SZNcAM",
+  "_key": "!items!06Z2PbZ3y7SZNcAM",
+  "name": "Hand of Glory",
+  "type": "itgear",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "dn": "4:2 / 5:2",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>While burning, renders the holder (and up to two touched allies) unnoticeable — even to night vision, cameras, and basilisk weapons.</p>",
+    "description": "<p>A severed hand prepared as a HOG. Ignites on the command word (and can set your pocket alight); extinguished by blowing it out or repeating the word. Burning time and damage-if-used depend on class (Class 1 mouse paw 30 s, up to Class 5 30 min). Requisition DN 4:2 (Class 2–3) or 5:2 (Class 1 & 4); Certification Intro to Applied Occult Computing or Basic Stealth and Evasion.</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "y17uqvIotUguivOr",
+  "_key": "!items!y17uqvIotUguivOr",
+  "name": "Plastic Explosive",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Blast (5), Brutal",
+    "range": "—",
+    "equipped": true,
+    "description": "<p>Shaped demolition charge. Requisition DN 5:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

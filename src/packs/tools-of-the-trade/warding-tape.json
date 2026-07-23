@@ -1,0 +1,30 @@
+{
+  "_id": "rLBQFCOGlpuP97Q5",
+  "_key": "!items!rLBQFCOGlpuP97Q5",
+  "name": "Warding Tape",
+  "type": "itgear",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "dn": "4:2 / 5:2",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>Rapidly lays down a Level 3 protective area ward around a room or floor space.</p>",
+    "description": "<p>A roll of silver/yellow duct tape inscribed with occult sigils. Civilians who study it must pass a Spirit (Resolve) Test or become Frightened; it must be hidden or removed where the public could see it. Requisition DN 4:2 (Class 3) or 5:2 (Class 4).</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

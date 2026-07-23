@@ -1,0 +1,28 @@
+{
+  "_id": "mHVNRWOoqdiY2Jz5",
+  "_key": "!items!mHVNRWOoqdiY2Jz5",
+  "name": "Unarmed",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "attackType": "melee",
+    "skill": "closeCombat",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Ineffective",
+    "range": "",
+    "equipped": true,
+    "description": "<p>A punch, kick, or headbutt. Against an unarmed or improvised strike the target's Armour is doubled and only Minor Injuries can be dealt.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

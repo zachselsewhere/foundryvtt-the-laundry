@@ -1,0 +1,28 @@
+{
+  "_id": "gSD3IO2HH0E1Xhwr",
+  "_key": "!items!gSD3IO2HH0E1Xhwr",
+  "name": "Taser",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "—",
+    "traits": "Close, Reload, Stunning, Subtle",
+    "range": "Close",
+    "equipped": true,
+    "description": "<p>Non-lethal subduing weapon. Requisition DN 3:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

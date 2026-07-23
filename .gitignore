@@ -4,6 +4,10 @@
 # Build artifacts
 *.zip
 
+# Compiled compendium packs — built from src/packs/ by the release workflow
+# (and by tools/build-packs.sh locally). Never edit these by hand.
+/packs/
+
 # Editor
 .vscode/
 .idea/

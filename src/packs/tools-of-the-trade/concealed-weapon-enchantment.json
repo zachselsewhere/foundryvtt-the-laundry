@@ -1,0 +1,30 @@
+{
+  "_id": "jMr3N4e4qcWw3vLe",
+  "_key": "!items!jMr3N4e4qcWw3vLe",
+  "name": "Concealed Weapon Enchantment",
+  "type": "itgear",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "dn": "5:2",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>Renders a gun (or similar item) invisible and inaudible to anyone without a Laundry warrant card.</p>",
+    "description": "<p>A variant of the Hand of Glory observer effect applied to a weapon. The effect lapses briefly when the weapon is fired, then returns next round. Requisition DN 5:2; Certification COWEU Level 1+.</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

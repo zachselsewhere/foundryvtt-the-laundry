@@ -1,0 +1,30 @@
+{
+  "_id": "GOajgPJxcapzmV9u",
+  "_key": "!items!GOajgPJxcapzmV9u",
+  "name": "Personal Ward",
+  "type": "itgear",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "dn": "3:2 / 4:2 / 5:2",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>Wearable protective ward against magic and possession (Class 2–4).</p>",
+    "description": "<p>A small bag of warded materials and a circuit worn on the person — essential field kit. Class 2 issued to all staff; Class 3 to field operatives on request; Class 4 for high-risk missions only. Requisition DN 3:2 (Class 1–2), 4:2 (Class 3), 5:2 (Class 4).</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

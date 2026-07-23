@@ -1,0 +1,28 @@
+{
+  "_id": "BltiYVfSl3rSUqa0",
+  "_key": "!items!BltiYVfSl3rSUqa0",
+  "name": "Submachine Gun",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "2+S",
+    "traits": "Brutal, Loud, Piercing, Spread",
+    "range": "Medium",
+    "equipped": true,
+    "description": "<p>Compact automatic weapon favoured by OCCULUS teams. Requisition DN 5:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

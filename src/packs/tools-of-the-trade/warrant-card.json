@@ -1,0 +1,30 @@
+{
+  "_id": "tkXOvWpWgmu0z0bc",
+  "_key": "!items!tkXOvWpWgmu0z0bc",
+  "name": "Warrant Card",
+  "type": "itgear",
+  "img": "icons/svg/key.svg",
+  "system": {
+    "dn": "—",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>Official ID carrying a geas: viewers do not question the bearer's identity or authority, and can be ordered to forget or stay silent.</p>",
+    "description": "<p>A field agent's most essential item, inscribed with a powerful compulsion sigil. Works on anyone who has not signed the Official Secrets Act in blood and on lower-ranked signatories, and controls Residual Human Resources. Abuse is a serious offence investigated by the Auditors. Issued to all operatives.</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

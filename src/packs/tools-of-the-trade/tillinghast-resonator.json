@@ -1,0 +1,30 @@
+{
+  "_id": "lkNkBgM05hal4xSG",
+  "_key": "!items!lkNkBgM05hal4xSG",
+  "name": "Tillinghast Resonator",
+  "type": "itgear",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "dn": "5:2",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>Lets the user see invisible phenomena and penetrate glamours up to Level 3 (emotional effects remain).</p>",
+    "description": "<p>Alters perception to reveal active spells, wards, and possessing entities — at a cost. While active, fear/intimidation resistance is at Disadvantage and social Tests at +1 Difficulty; on activation, pass a DN 4:1 Spirit (Resolve) Test or become Frightened. Requisition DN 5:2; Certification Practical Occultism.</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

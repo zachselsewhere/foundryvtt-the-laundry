@@ -1,0 +1,28 @@
+{
+  "_id": "OzfmD8W2Z7IIUFOs",
+  "_key": "!items!OzfmD8W2Z7IIUFOs",
+  "name": "Axe",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "attackType": "melee",
+    "skill": "closeCombat",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Crushing, Subtle, Thrown (Short)",
+    "range": "Short (thrown)",
+    "equipped": true,
+    "description": "<p>A hatchet or hand-axe; heavy enough to crush and light enough to throw at Short range.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

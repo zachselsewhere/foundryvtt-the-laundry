@@ -1,0 +1,23 @@
+{
+  "_id": "Kx7e4iAD2BqXlCRi",
+  "_key": "!items!Kx7e4iAD2BqXlCRi",
+  "name": "Banishment Rounds",
+  "type": "equipment",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>Silver-coated hollow-points engraved with a demicyclic banishment circuit in 90 nm Enochian. In addition to normal damage they trigger a Level 3 Banishing spell — the direct alternative to a banishment grid. Usually 9 mm. Requisition DN 3:2; Certification COWEU Level 1+.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

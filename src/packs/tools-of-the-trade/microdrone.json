@@ -1,0 +1,23 @@
+{
+  "_id": "YBT3M9ybLMVECsmg",
+  "_key": "!items!YBT3M9ybLMVECsmg",
+  "name": "Microdrone",
+  "type": "equipment",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>A hummingbird-sized surveillance drone with two cameras (view + autonomous navigation), speaker and mic, ~50 kph for 30 minutes, 2 km encrypted range. Anyone who sees it knows it is artificial. Requisition DN 5:1; Certification Advanced Surveillance.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

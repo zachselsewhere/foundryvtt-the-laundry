@@ -1,0 +1,28 @@
+{
+  "_id": "xds9GcCAI9TORbkd",
+  "_key": "!items!xds9GcCAI9TORbkd",
+  "name": "Shotgun",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "1+S",
+    "traits": "Brutal, Close, Loud, Spread, Two-Handed",
+    "range": "Short",
+    "equipped": true,
+    "description": "<p>Devastating at close quarters. Requisition DN 4:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

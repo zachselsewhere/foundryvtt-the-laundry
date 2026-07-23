@@ -1,0 +1,23 @@
+{
+  "_id": "2z1zicgG3DoYRnbb",
+  "_key": "!items!2z1zicgG3DoYRnbb",
+  "name": "3-W Laser",
+  "type": "equipment",
+  "img": "icons/svg/hazard.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>A pen-sized laser that destroys media and circuitry, blinds cameras, ignites paper, and cuts thin cables at up to 5 m. Can attempt to blind a person with a Body (Ranged) Test at +2 Difficulty. Requisition DN 5:1; Certification COWE Level 1+.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

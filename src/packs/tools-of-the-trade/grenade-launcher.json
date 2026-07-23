@@ -1,0 +1,28 @@
+{
+  "_id": "cBc93bBrpfBbqmQn",
+  "_key": "!items!cBc93bBrpfBbqmQn",
+  "name": "Grenade Launcher",
+  "type": "weapon",
+  "img": "icons/svg/explosion.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Blast (3), Brutal, Reload",
+    "range": "Medium",
+    "equipped": true,
+    "description": "<p>Launches explosive rounds at range. Requisition DN 5:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

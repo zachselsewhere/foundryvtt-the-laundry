@@ -1,0 +1,28 @@
+{
+  "_id": "ziBNy6je0nJ8ajkJ",
+  "_key": "!items!ziBNy6je0nJ8ajkJ",
+  "name": "Sniper Rifle",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "2+S",
+    "traits": "Brutal, Penetrating, Piercing, Two-Handed",
+    "range": "Long",
+    "equipped": true,
+    "description": "<p>Precision rifle for engaging targets at distance. Requisition DN 5:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

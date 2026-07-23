@@ -1,0 +1,23 @@
+{
+  "_id": "VN1nEy5QteS70TyZ",
+  "_key": "!items!VN1nEy5QteS70TyZ",
+  "name": "Locator Bugs",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "quantity": 1,
+    "carried": true,
+    "location": "",
+    "description": "<p>Encrypted tracking bugs that also relay sound within 5 m, locating a target to within 2 m anywhere with cell reception. Requisition DN 4:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

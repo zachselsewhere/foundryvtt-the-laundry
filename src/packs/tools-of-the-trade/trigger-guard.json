@@ -1,0 +1,30 @@
+{
+  "_id": "gyG1dTSLQHljHZHx",
+  "_key": "!items!gyG1dTSLQHljHZHx",
+  "name": "Trigger Guard",
+  "type": "itgear",
+  "img": "icons/svg/key.svg",
+  "system": {
+    "dn": "—",
+    "target": "",
+    "range": "",
+    "duration": "",
+    "effect": "<p>Locks a device (gun trigger, car key, phone button) so only its designated operator can use it.</p>",
+    "description": "<p>A sympathetic-magic enchantment keyed to the operator with a drop of their blood. Does not prevent coercion, and a severed finger can still work the device. Automatically applied to Q Division concealed firearms.</p>",
+    "level": 0,
+    "charges": {
+      "value": 0,
+      "max": 0
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

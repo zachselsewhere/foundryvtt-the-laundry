@@ -1,0 +1,28 @@
+{
+  "_id": "xFs7GccgwovlZCb4",
+  "_key": "!items!xFs7GccgwovlZCb4",
+  "name": "Knife",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "attackType": "melee",
+    "skill": "closeCombat",
+    "pool": 0,
+    "focus": 0,
+    "damage": "+S",
+    "traits": "Piercing, Subtle, Thrown (Short)",
+    "range": "Short (thrown)",
+    "equipped": true,
+    "description": "<p>A concealable blade that can also be thrown at Short range.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_id": "KbqD0L4TmvZ1rmnw",
+  "_key": "!items!KbqD0L4TmvZ1rmnw",
+  "name": "Revolver",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "1+S",
+    "traits": "Close, Loud, Piercing, Reload",
+    "range": "Medium",
+    "equipped": true,
+    "description": "<p>A reliable sidearm. Requisition DN 4:1.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

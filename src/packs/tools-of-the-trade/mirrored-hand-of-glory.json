@@ -1,0 +1,28 @@
+{
+  "_id": "TJu0fUaAkcdWkezg",
+  "_key": "!items!TJu0fUaAkcdWkezg",
+  "name": "Mirrored Hand of Glory",
+  "type": "weapon",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "By class (S+2 to S+5)",
+    "traits": "5 shots (one finger each); Body (Ranged)",
+    "range": "Line of sight",
+    "equipped": true,
+    "description": "<p>A HOG whose base is a silver phase-conjugate mirror — effectively a five-shot laser made from a dead hand and careful circuitry. Aimed normally with Body (Ranged).</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

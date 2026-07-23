@@ -1,0 +1,28 @@
+{
+  "_id": "vjWtxHV5NddTGrTA",
+  "_key": "!items!vjWtxHV5NddTGrTA",
+  "name": "Erich Zann Violin",
+  "type": "weapon",
+  "img": "icons/svg/sound.svg",
+  "system": {
+    "attackType": "ranged",
+    "skill": "ranged",
+    "pool": 0,
+    "focus": 0,
+    "damage": "S+3 / round",
+    "traits": "Special; all who hear must pass DN 4:2 Mind (Resolve) or be Frightened",
+    "range": "Earshot (~20 m)",
+    "equipped": true,
+    "description": "<p>One of twelve ever made, each built from the bones of twelve sacrificed people. Duplicates Level 2–4 Banishing and Exorcism. Deals S+3 damage each round played; the player takes 1 damage per round. Activating effects needs a Spirit (Zeal) roll. Requisition DN 6:3; Certification COWEU Level 3+, Training (2) Presence, Virtuoso Talent.</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "the-laundry"
+  }
+}

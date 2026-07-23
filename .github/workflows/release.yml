@@ -26,10 +26,21 @@ jobs:
           jq --arg v "${{ steps.vars.outputs.version }}" '.version = $v' system.json > "$tmp"
           mv "$tmp" system.json
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Compile compendium packs (src/packs -> packs, LevelDB)
+        run: |
+          npx --yes @foundryvtt/foundryvtt-cli@latest package pack \
+            --id the-laundry --type System -n tools-of-the-trade \
+            --in src/packs/tools-of-the-trade --out packs
+
       - name: Build system zip (files at archive root)
         run: |
           zip -r the-laundry.zip . \
-            -x ".git/*" ".github/*" "*.zip" ".gitignore" ".DS_Store" "release.sh"
+            -x ".git/*" ".github/*" "*.zip" ".gitignore" ".DS_Store" "release.sh" "src/*" "tools/*"
 
       - name: Publish release
         env:
