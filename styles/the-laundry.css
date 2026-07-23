@@ -98,14 +98,16 @@
   letter-spacing: 1px;
 }
 
-/* ---- Tabs ---------------------------------------------------------- */
-.the-laundry .sheet-tabs {
+/* ---- Tabs (system-scoped class names to avoid core .sheet-tabs/.tab bleed) ---- */
+.the-laundry .laundry-tabs {
   display: flex;
   gap: 4px;
   border-bottom: 2px solid var(--line);
   margin-top: 2px;
+  position: relative;
+  z-index: 2;
 }
-.the-laundry .tab-link {
+.the-laundry .laundry-tablink {
   font-family: var(--mono);
   font-size: 11px;
   text-transform: uppercase;
@@ -119,15 +121,15 @@
   gap: 6px;
   align-items: center;
 }
-.the-laundry .tab-link.active {
+.the-laundry .laundry-tablink.active {
   background: var(--bar);
   color: var(--bar-text);
 }
-.the-laundry .tab-link.active i { color: var(--bar-text); }
+.the-laundry .laundry-tablink.active i { color: var(--bar-text); }
 
 /* ---- Tab visibility ------------------------------------------------ */
-.the-laundry .tab { display: none; padding: 8px 10px 12px; }
-.the-laundry .tab.active { display: block; }
+.the-laundry .laundry-tabpage { display: none; padding: 10px 10px 12px; position: relative; z-index: 1; }
+.the-laundry .laundry-tabpage.active { display: block; }
 
 /* ---- Panels -------------------------------------------------------- */
 .the-laundry .panel {

@@ -149,9 +149,9 @@ export class LaundryCharacterSheet extends HandlebarsApplicationMixin(ActorSheet
     const tab = target.dataset.tab;
     this.tabGroups[group] = tab;
     const root = this.element;
-    root.querySelectorAll(`.tab[data-group="${group}"]`)
+    root.querySelectorAll(`.laundry-tabpage[data-group="${group}"]`)
       .forEach(el => el.classList.toggle("active", el.dataset.tab === tab));
-    root.querySelectorAll(`.tab-link[data-group="${group}"]`)
+    root.querySelectorAll(`.laundry-tablink[data-group="${group}"]`)
       .forEach(el => el.classList.toggle("active", el.dataset.tab === tab));
   }
 

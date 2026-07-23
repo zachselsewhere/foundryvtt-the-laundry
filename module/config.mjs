@@ -70,8 +70,8 @@ LAUNDRY.skillDefaultAttribute = {
   zeal: "spirit"
 };
 
-/** Maximum pips shown on the sheet for Training / Focus tracks. */
-LAUNDRY.maxSkillRank = 5;
+/** Maximum pips shown on the sheet for Training / Focus tracks (matches the printed sheet). */
+LAUNDRY.maxSkillRank = 3;
 
 /**
  * The Ladder — converts a numeric total into a rating band.
