@@ -39,14 +39,35 @@ the **C7d6** dice-pool ruleset and ships a character sheet styled after the prin
 - **Test**: `DN X:Y` — roll the pool, each die ≥ X is a success, need Y successes.
 - Full assessment: [`docs/laundry-mechanics.md`](docs/laundry-mechanics.md).
 
-## Installation
-1. Copy the **`the-laundry`** folder into your Foundry user data at
-   `Data/systems/the-laundry` (the folder name must stay `the-laundry` — it matches the
-   system `id`).
-2. Restart Foundry, then create a new World using **The Laundry Roleplaying Game**.
+## Installation (via manifest — recommended)
+In Foundry: **Game Systems → Install System → Manifest URL**, paste:
 
-(Or host `system.json` + a packaged zip and install via the manifest URL — fill in the
-`manifest`/`download`/`url` fields in `system.json` first.)
+```
+https://github.com/zachselsewhere/foundryvtt-the-laundry/releases/latest/download/system.json
+```
+
+Then create a new World using **The Laundry Roleplaying Game**. To upgrade later, just click
+**Update** on the system in Foundry's Game Systems list — it re-reads the manifest and pulls
+the newest release. No files are ever edited on the server.
+
+## Updating / publishing a new version
+This repo publishes a Foundry-installable release automatically whenever a version tag is
+pushed (see [`.github/workflows/release.yml`](.github/workflows/release.yml)). To cut a new
+version from your working copy:
+
+```bash
+./release.sh 0.1.1          # bumps system.json, commits, tags v0.1.1, pushes
+```
+
+GitHub Actions then builds `the-laundry.zip`, stamps the version into `system.json`, and
+publishes the release. Once it finishes (~1 min), click **Update** in Foundry.
+
+> Because the `manifest`/`download` URLs point at `releases/latest/download/…`, Foundry always
+> sees the newest published release — you never change the URL.
+
+## Manual install (alternative)
+Copy the repository contents into `Data/systems/the-laundry/` on your Foundry host (the folder
+**must** be named `the-laundry` to match the system `id`), then restart Foundry.
 
 ## Usage notes
 - **Attributes / current resources** (Toughness, Adrenaline, Armour) are editable inputs;
