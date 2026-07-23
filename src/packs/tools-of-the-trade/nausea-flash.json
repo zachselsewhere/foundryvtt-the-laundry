@@ -3,7 +3,7 @@
   "_key": "!items!pAO6J8xHCiB2OMgJ",
   "name": "Nausea Flash",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/the-laundry/assets/icons/flash.svg",
   "system": {
     "quantity": 1,
     "carried": true,

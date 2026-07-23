@@ -3,7 +3,7 @@
   "_key": "!items!rLBQFCOGlpuP97Q5",
   "name": "Warding Tape",
   "type": "itgear",
-  "img": "icons/svg/aura.svg",
+  "img": "systems/the-laundry/assets/icons/tape.svg",
   "system": {
     "dn": "4:2 / 5:2",
     "target": "",

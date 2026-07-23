@@ -3,7 +3,7 @@
   "_key": "!items!vjWtxHV5NddTGrTA",
   "name": "Erich Zann Violin",
   "type": "weapon",
-  "img": "icons/svg/sound.svg",
+  "img": "systems/the-laundry/assets/icons/violin.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

@@ -3,7 +3,7 @@
   "_key": "!items!GOajgPJxcapzmV9u",
   "name": "Personal Ward",
   "type": "itgear",
-  "img": "icons/svg/aura.svg",
+  "img": "systems/the-laundry/assets/icons/ward.svg",
   "system": {
     "dn": "3:2 / 4:2 / 5:2",
     "target": "",

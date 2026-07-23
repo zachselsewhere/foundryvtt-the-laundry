@@ -3,7 +3,7 @@
   "_key": "!items!HFW5DTCarUghSj1M",
   "name": "Basilisk Gun",
   "type": "weapon",
-  "img": "icons/svg/eye.svg",
+  "img": "systems/the-laundry/assets/icons/basilisk.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

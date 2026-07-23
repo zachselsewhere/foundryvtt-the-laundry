@@ -3,7 +3,7 @@
   "_key": "!items!06Z2PbZ3y7SZNcAM",
   "name": "Hand of Glory",
   "type": "itgear",
-  "img": "icons/svg/fire.svg",
+  "img": "systems/the-laundry/assets/icons/handflame.svg",
   "system": {
     "dn": "4:2 / 5:2",
     "target": "",

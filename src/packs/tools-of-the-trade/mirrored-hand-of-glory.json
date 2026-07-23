@@ -3,7 +3,7 @@
   "_key": "!items!TJu0fUaAkcdWkezg",
   "name": "Mirrored Hand of Glory",
   "type": "weapon",
-  "img": "icons/svg/fire.svg",
+  "img": "systems/the-laundry/assets/icons/handflame.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

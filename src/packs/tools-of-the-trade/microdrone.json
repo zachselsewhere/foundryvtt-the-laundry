@@ -3,7 +3,7 @@
   "_key": "!items!YBT3M9ybLMVECsmg",
   "name": "Microdrone",
   "type": "equipment",
-  "img": "icons/svg/eye.svg",
+  "img": "systems/the-laundry/assets/icons/drone.svg",
   "system": {
     "quantity": 1,
     "carried": true,

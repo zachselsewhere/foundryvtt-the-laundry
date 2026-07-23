@@ -3,7 +3,7 @@
   "_key": "!items!VpW1EqyeZM0HgNvA",
   "name": "Personal Panic Button",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/the-laundry/assets/icons/panic.svg",
   "system": {
     "quantity": 1,
     "carried": true,

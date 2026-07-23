@@ -3,7 +3,7 @@
   "_key": "!items!nuMUQemXq3DUoAsW",
   "name": "T-Ray Scanner",
   "type": "equipment",
-  "img": "icons/svg/eye.svg",
+  "img": "systems/the-laundry/assets/icons/scanner.svg",
   "system": {
     "quantity": 1,
     "carried": true,

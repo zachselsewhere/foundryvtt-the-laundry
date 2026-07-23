@@ -3,7 +3,7 @@
   "_key": "!items!zTdsCNIF9BJs5Rvg",
   "name": "Laser Microphone",
   "type": "equipment",
-  "img": "icons/svg/eye.svg",
+  "img": "systems/the-laundry/assets/icons/mic.svg",
   "system": {
     "quantity": 1,
     "carried": true,

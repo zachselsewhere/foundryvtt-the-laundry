@@ -3,7 +3,7 @@
   "_key": "!items!KrXlWfo8i9FeZoDA",
   "name": "Sword",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/the-laundry/assets/icons/sword.svg",
   "system": {
     "attackType": "melee",
     "skill": "closeCombat",

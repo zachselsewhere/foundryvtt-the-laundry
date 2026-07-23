@@ -3,7 +3,7 @@
   "_key": "!items!lkNkBgM05hal4xSG",
   "name": "Tillinghast Resonator",
   "type": "itgear",
-  "img": "icons/svg/eye.svg",
+  "img": "systems/the-laundry/assets/icons/eye.svg",
   "system": {
     "dn": "5:2",
     "target": "",

@@ -3,7 +3,7 @@
   "_key": "!items!mHVNRWOoqdiY2Jz5",
   "name": "Unarmed",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/the-laundry/assets/icons/fist.svg",
   "system": {
     "attackType": "melee",
     "skill": "closeCombat",

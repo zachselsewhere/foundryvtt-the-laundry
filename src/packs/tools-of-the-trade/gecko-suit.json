@@ -3,7 +3,7 @@
   "_key": "!items!hBVXAvofyGvPpuui",
   "name": "Gecko Suit",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/the-laundry/assets/icons/gecko.svg",
   "system": {
     "quantity": 1,
     "carried": true,

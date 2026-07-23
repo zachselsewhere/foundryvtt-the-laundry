@@ -3,7 +3,7 @@
   "_key": "!items!2z1zicgG3DoYRnbb",
   "name": "3-W Laser",
   "type": "equipment",
-  "img": "icons/svg/hazard.svg",
+  "img": "systems/the-laundry/assets/icons/laser.svg",
   "system": {
     "quantity": 1,
     "carried": true,

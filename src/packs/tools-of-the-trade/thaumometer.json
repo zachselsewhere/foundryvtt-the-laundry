@@ -3,7 +3,7 @@
   "_key": "!items!i5oPrIqJShkYMwQf",
   "name": "Thaumometer",
   "type": "itgear",
-  "img": "icons/svg/radiation.svg",
+  "img": "systems/the-laundry/assets/icons/gauge.svg",
   "system": {
     "dn": "3:2",
     "target": "",

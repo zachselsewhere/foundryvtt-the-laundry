@@ -3,7 +3,7 @@
   "_key": "!items!V9MKJ35NYcOqRqLu",
   "name": "Bat / Club",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/the-laundry/assets/icons/club.svg",
   "system": {
     "attackType": "melee",
     "skill": "closeCombat",

@@ -3,7 +3,7 @@
   "_key": "!items!KbqD0L4TmvZ1rmnw",
   "name": "Revolver",
   "type": "weapon",
-  "img": "icons/svg/target.svg",
+  "img": "systems/the-laundry/assets/icons/revolver.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

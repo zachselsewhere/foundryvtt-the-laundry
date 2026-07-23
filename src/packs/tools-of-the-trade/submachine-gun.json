@@ -3,7 +3,7 @@
   "_key": "!items!BltiYVfSl3rSUqa0",
   "name": "Submachine Gun",
   "type": "weapon",
-  "img": "icons/svg/target.svg",
+  "img": "systems/the-laundry/assets/icons/smg.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

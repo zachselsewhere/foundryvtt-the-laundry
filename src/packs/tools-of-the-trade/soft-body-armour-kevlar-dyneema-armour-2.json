@@ -3,7 +3,7 @@
   "_key": "!items!pw1k97WN5wENQ6Rw",
   "name": "Soft Body Armour — Kevlar/Dyneema (Armour 2)",
   "type": "equipment",
-  "img": "icons/svg/shield.svg",
+  "img": "systems/the-laundry/assets/icons/vest.svg",
   "system": {
     "quantity": 1,
     "carried": true,

@@ -3,7 +3,7 @@
   "_key": "!items!jMr3N4e4qcWw3vLe",
   "name": "Concealed Weapon Enchantment",
   "type": "itgear",
-  "img": "icons/svg/book.svg",
+  "img": "systems/the-laundry/assets/icons/sigil.svg",
   "system": {
     "dn": "5:2",
     "target": "",

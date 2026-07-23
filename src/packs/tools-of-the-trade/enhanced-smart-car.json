@@ -3,7 +3,7 @@
   "_key": "!items!9a22I4NlWdxbhtBC",
   "name": "Enhanced Smart Car",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/the-laundry/assets/icons/car.svg",
   "system": {
     "quantity": 1,
     "carried": true,

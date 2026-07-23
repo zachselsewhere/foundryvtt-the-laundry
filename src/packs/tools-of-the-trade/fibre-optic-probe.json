@@ -3,7 +3,7 @@
   "_key": "!items!v5n8aY3gWx2uHqp9",
   "name": "Fibre Optic Probe",
   "type": "equipment",
-  "img": "icons/svg/eye.svg",
+  "img": "systems/the-laundry/assets/icons/probe.svg",
   "system": {
     "quantity": 1,
     "carried": true,

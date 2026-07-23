@@ -3,7 +3,7 @@
   "_key": "!items!RQIMT9QIFr7WUdqW",
   "name": "Improvised Weapon",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/the-laundry/assets/icons/bottle.svg",
   "system": {
     "attackType": "melee",
     "skill": "closeCombat",

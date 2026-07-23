@@ -3,7 +3,7 @@
   "_key": "!items!oB7ZdYajndGSST6r",
   "name": "Assault Rifle",
   "type": "weapon",
-  "img": "icons/svg/target.svg",
+  "img": "systems/the-laundry/assets/icons/rifle.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

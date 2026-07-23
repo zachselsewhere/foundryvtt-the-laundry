@@ -3,7 +3,7 @@
   "_key": "!items!qJbNOsIUejtkgZv2",
   "name": "Stab / Spike Vest (Armour 2)",
   "type": "equipment",
-  "img": "icons/svg/shield.svg",
+  "img": "systems/the-laundry/assets/icons/vest.svg",
   "system": {
     "quantity": 1,
     "carried": true,

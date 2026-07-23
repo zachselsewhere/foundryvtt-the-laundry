@@ -3,7 +3,7 @@
   "_key": "!items!cBc93bBrpfBbqmQn",
   "name": "Grenade Launcher",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "systems/the-laundry/assets/icons/launcher.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

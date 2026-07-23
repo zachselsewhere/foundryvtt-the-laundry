@@ -3,7 +3,7 @@
   "_key": "!items!y17uqvIotUguivOr",
   "name": "Plastic Explosive",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "systems/the-laundry/assets/icons/explosive.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

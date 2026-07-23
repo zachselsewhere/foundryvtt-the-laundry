@@ -3,7 +3,7 @@
   "_key": "!items!fh1CEd8GJ0wdncjQ",
   "name": "Keystroke Logger",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/the-laundry/assets/icons/chip.svg",
   "system": {
     "quantity": 1,
     "carried": true,

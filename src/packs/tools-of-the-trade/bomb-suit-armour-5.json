@@ -3,7 +3,7 @@
   "_key": "!items!25knLmfyP2q4l4rk",
   "name": "Bomb Suit (Armour 5)",
   "type": "equipment",
-  "img": "icons/svg/shield.svg",
+  "img": "systems/the-laundry/assets/icons/bombsuit.svg",
   "system": {
     "quantity": 1,
     "carried": true,

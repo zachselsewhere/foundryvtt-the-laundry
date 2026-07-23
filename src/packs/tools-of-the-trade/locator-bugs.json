@@ -3,7 +3,7 @@
   "_key": "!items!VN1nEy5QteS70TyZ",
   "name": "Locator Bugs",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/the-laundry/assets/icons/bug.svg",
   "system": {
     "quantity": 1,
     "carried": true,

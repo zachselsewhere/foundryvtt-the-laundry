@@ -3,7 +3,7 @@
   "_key": "!items!CDwrsZOnaVeav11X",
   "name": "Disguised Pistol",
   "type": "weapon",
-  "img": "icons/svg/target.svg",
+  "img": "systems/the-laundry/assets/icons/pistol.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

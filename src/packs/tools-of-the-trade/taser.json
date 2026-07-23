@@ -3,7 +3,7 @@
   "_key": "!items!gSD3IO2HH0E1Xhwr",
   "name": "Taser",
   "type": "weapon",
-  "img": "icons/svg/target.svg",
+  "img": "systems/the-laundry/assets/icons/taser.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

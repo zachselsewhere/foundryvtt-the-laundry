@@ -3,7 +3,7 @@
   "_key": "!items!Kx7e4iAD2BqXlCRi",
   "name": "Banishment Rounds",
   "type": "equipment",
-  "img": "icons/svg/explosion.svg",
+  "img": "systems/the-laundry/assets/icons/bullet.svg",
   "system": {
     "quantity": 1,
     "carried": true,

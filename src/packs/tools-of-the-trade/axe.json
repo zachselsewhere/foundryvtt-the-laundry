@@ -3,7 +3,7 @@
   "_key": "!items!OzfmD8W2Z7IIUFOs",
   "name": "Axe",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/the-laundry/assets/icons/axe.svg",
   "system": {
     "attackType": "melee",
     "skill": "closeCombat",

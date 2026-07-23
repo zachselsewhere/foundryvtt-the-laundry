@@ -3,7 +3,7 @@
   "_key": "!items!WsUSpDJEkrZ1oatj",
   "name": "Grenade (Smoke)",
   "type": "weapon",
-  "img": "icons/svg/explosion.svg",
+  "img": "systems/the-laundry/assets/icons/grenade.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",

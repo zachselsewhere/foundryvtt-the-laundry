@@ -3,7 +3,7 @@
   "_key": "!items!rYDOQ45sD0BuG3VN",
   "name": "Hard Body Armour — Ceramic/Steel (Armour 3)",
   "type": "equipment",
-  "img": "icons/svg/shield.svg",
+  "img": "systems/the-laundry/assets/icons/plate.svg",
   "system": {
     "quantity": 1,
     "carried": true,

@@ -3,7 +3,7 @@
   "_key": "!items!ziBNy6je0nJ8ajkJ",
   "name": "Sniper Rifle",
   "type": "weapon",
-  "img": "icons/svg/target.svg",
+  "img": "systems/the-laundry/assets/icons/sniper.svg",
   "system": {
     "attackType": "ranged",
     "skill": "ranged",
