@@ -641,7 +641,7 @@
 .the-laundry .cm-equip { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px; }
 .the-laundry .cm-tag { font-family: var(--mono); font-size: 10px; background: var(--paper-2); border: 1px solid var(--hair); padding: 1px 6px; border-radius: 2px; }
 .the-laundry .cm-footer { display: flex; justify-content: flex-end; gap: 8px; padding-top: 6px; }
-.the-laundry .cm-footer button { font-family: var(--mono); text-transform: uppercase; letter-spacing: 1px; font-size: 11px; padding: 5px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--paper-2); }
+.the-laundry .cm-footer button { font-family: var(--mono); text-transform: uppercase; letter-spacing: 1px; font-size: 11px; padding: 5px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--paper-2); color: var(--ink); font-weight: 700; }
 .the-laundry .cm-footer .cm-apply { background: var(--bar); color: var(--bar-text); border-color: var(--bar); }
 .the-laundry .cm-footer .cm-apply:hover:not(:disabled) { background: var(--accent); border-color: var(--accent); }
 .the-laundry .cm-footer button:disabled { opacity: 0.45; cursor: not-allowed; }
