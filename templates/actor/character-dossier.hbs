@@ -4,6 +4,14 @@
   <div class="edit-banner"><i class="fa-solid fa-unlock"></i> OVERRIDE MODE — attribute &amp; skill changes edit the <strong>entry-level base</strong>, not XP advancement.</div>
   {{/if}}
 
+  <div class="assignment-bar">
+    <span class="assignment-label">Assignment</span>
+    <span class="assignment-name">{{assignmentName}}{{#if assignmentDept}} <span class="assignment-dept">&middot; {{assignmentDept}}</span>{{/if}}</span>
+    <a class="assignment-btn" data-action="openCharactermancer" data-tooltip="Choose or change this operative's Assignment">
+      <i class="fa-solid fa-id-badge"></i> Charactermancer
+    </a>
+  </div>
+
   {{!-- ===== IDENTITY + ATTRIBUTES ===== --}}
   <div class="dossier-top">
     <div class="identity-block">

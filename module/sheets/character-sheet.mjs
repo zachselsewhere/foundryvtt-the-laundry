@@ -1,4 +1,5 @@
 import { LAUNDRY } from "../config.mjs";
+import { Charactermancer } from "../apps/charactermancer.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -18,6 +19,7 @@ export class LaundryCharacterSheet extends HandlebarsApplicationMixin(ActorSheet
       changeTab: LaundryCharacterSheet.#onChangeTab,
       editImage: LaundryCharacterSheet.#onEditImage,
       toggleEdit: LaundryCharacterSheet.#onToggleEdit,
+      openCharactermancer: LaundryCharacterSheet.#onOpenCharactermancer,
       stepAttribute: LaundryCharacterSheet.#onStepAttribute,
       rollAttribute: LaundryCharacterSheet.#onRollAttribute,
       rollSkill: LaundryCharacterSheet.#onRollSkill,
@@ -56,6 +58,11 @@ export class LaundryCharacterSheet extends HandlebarsApplicationMixin(ActorSheet
     context.editable = this.isEditable;
     context.editMode = this.editMode;
     context.tabs = this.#getTabs();
+
+    // Current assignment (for the charactermancer bar)
+    const asg = LAUNDRY.assignments[sys.assignment];
+    context.assignmentName = asg ? asg.name : "Custom";
+    context.assignmentDept = asg ? LAUNDRY.departments[asg.department] : "";
 
     // Attributes (effective value + layer breakdown for the tooltip)
     context.attributes = Object.keys(LAUNDRY.attributes).map(key => ({
@@ -188,6 +195,10 @@ export class LaundryCharacterSheet extends HandlebarsApplicationMixin(ActorSheet
   static #onToggleEdit() {
     this.editMode = !this.editMode;
     this.render();
+  }
+
+  static #onOpenCharactermancer() {
+    new Charactermancer(this.actor).render(true);
   }
 
   static #onStepAttribute(event, target) {

@@ -583,3 +583,65 @@
 .laundry-roll-dialog .form-group { display: flex; justify-content: space-between; align-items: center; margin: 4px 0; }
 .laundry-roll-dialog label { font-size: 12px; }
 .laundry-roll-dialog input { width: 70px; text-align: center; }
+
+/* ============================================================
+   ASSIGNMENT BAR (character sheet) + CHARACTERMANCER
+   ============================================================ */
+.the-laundry .assignment-bar {
+  display: flex; align-items: center; gap: 10px;
+  border: 1px solid var(--line); background: rgba(255,255,255,0.2);
+  padding: 4px 10px; margin-bottom: 8px;
+}
+.the-laundry .assignment-label {
+  font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--ink-soft);
+}
+.the-laundry .assignment-name { font-family: var(--mono); font-weight: 700; }
+.the-laundry .assignment-dept { color: var(--ink-soft); font-weight: 400; }
+.the-laundry .assignment-btn {
+  margin-left: auto; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+  background: var(--bar); color: var(--bar-text); padding: 3px 10px; border-radius: 2px; cursor: pointer; white-space: nowrap;
+}
+.the-laundry .assignment-btn:hover { background: var(--accent); }
+.the-laundry .assignment-btn i { color: var(--bar-text); }
+
+.the-laundry.charactermancer .window-content { background: var(--paper); color: var(--ink); font-family: var(--serif); }
+.the-laundry.charactermancer .cm-body {
+  flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: 12px 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+}
+.the-laundry.charactermancer .cm-intro { font-size: 12px; color: var(--ink-soft); margin: 0 0 10px; }
+.the-laundry .cm-selects { display: flex; gap: 12px; margin-bottom: 10px; }
+.the-laundry .cm-field { display: flex; flex-direction: column; gap: 3px; flex: 1; }
+.the-laundry .cm-field > span { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--ink-soft); }
+.the-laundry .cm-field select { font-family: var(--mono); border: 1px solid var(--hair); padding: 3px 6px; background: rgba(255,255,255,0.3); }
+.the-laundry .cm-panel { border: 1px solid var(--line); background: rgba(255,255,255,0.14); margin-bottom: 10px; }
+.the-laundry .cm-panel-head {
+  background: linear-gradient(var(--bar-2), var(--bar)); color: var(--bar-text);
+  font-family: var(--mono); font-weight: 700; font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+  padding: 3px 8px; display: flex; align-items: center; gap: 8px;
+}
+.the-laundry .cm-hint { font-weight: 400; text-transform: none; letter-spacing: 0; font-size: 10px; opacity: 0.85; }
+.the-laundry .cm-xp { margin-left: auto; font-size: 11px; }
+.the-laundry .cm-xp.over { color: #ff9a8a; }
+.the-laundry .cm-attrs { display: flex; gap: 10px; padding: 8px; }
+.the-laundry .cm-attr { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px; font-family: var(--mono); font-size: 11px; text-transform: uppercase; }
+.the-laundry .cm-attr input { width: 54px; text-align: center; font-size: 20px; font-weight: 700; font-family: var(--mono); border: 1px solid var(--hair); }
+.the-laundry .cm-skill-head { display: grid; grid-template-columns: 1fr 120px 120px; font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--ink-soft); padding: 3px 8px 0; }
+.the-laundry .cm-skill-head span:not(:first-child) { text-align: center; }
+.the-laundry .cm-skill-row { display: grid; grid-template-columns: 1fr 120px 120px; align-items: center; padding: 1px 8px; }
+.the-laundry .cm-skill-row.core { background: rgba(138,28,18,0.06); }
+.the-laundry .cm-skill-name { font-family: var(--mono); font-size: 12px; }
+.the-laundry .cm-stepper { display: flex; align-items: center; justify-content: center; gap: 6px; }
+.the-laundry .cm-stepper a { font-family: var(--mono); font-weight: 700; font-size: 15px; width: 16px; text-align: center; cursor: pointer; color: var(--ink-soft); }
+.the-laundry .cm-stepper a:hover { color: var(--accent); }
+.the-laundry .cm-pips { display: flex; gap: 3px; }
+.the-laundry .cm-core-talent { font-family: var(--mono); font-weight: 700; padding: 6px 8px; color: var(--accent); }
+.the-laundry .cm-talent-list { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; padding: 0 8px 8px; }
+.the-laundry .cm-talent { font-family: var(--mono); font-size: 11px; display: flex; align-items: center; gap: 5px; }
+.the-laundry .cm-equip { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px; }
+.the-laundry .cm-tag { font-family: var(--mono); font-size: 10px; background: var(--paper-2); border: 1px solid var(--hair); padding: 1px 6px; border-radius: 2px; }
+.the-laundry .cm-footer { display: flex; justify-content: flex-end; gap: 8px; padding-top: 6px; }
+.the-laundry .cm-footer button { font-family: var(--mono); text-transform: uppercase; letter-spacing: 1px; font-size: 11px; padding: 5px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--paper-2); }
+.the-laundry .cm-footer .cm-apply { background: var(--bar); color: var(--bar-text); border-color: var(--bar); }
+.the-laundry .cm-footer .cm-apply:hover:not(:disabled) { background: var(--accent); border-color: var(--accent); }
+.the-laundry .cm-footer button:disabled { opacity: 0.45; cursor: not-allowed; }

@@ -1,8 +1,17 @@
+import { DEPARTMENTS, ASSIGNMENTS } from "./assignments.mjs";
+
 /**
  * Central configuration for The Laundry system.
  * Mounted on CONFIG.LAUNDRY during init.
  */
 export const LAUNDRY = {};
+
+/** Departments and the 27 standard Assignments (see module/assignments.mjs). */
+LAUNDRY.departments = DEPARTMENTS;
+LAUNDRY.assignments = ASSIGNMENTS;
+
+/** Total XP to reach a Training/Focus level from 0 (triangular: 0,1,3,6,10). */
+LAUNDRY.skillLevelCost = (level) => (level * (level + 1)) / 2;
 
 /** The three core Attributes. */
 LAUNDRY.attributes = {

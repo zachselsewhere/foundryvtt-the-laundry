@@ -1,0 +1,97 @@
+<div class="cm-body">
+  <p class="cm-intro">Choose a <strong>Department</strong> and <strong>Assignment</strong> to seed this operative's entry-level Attributes, Skills, Core Talent, and gear. Advancement bought with XP is preserved. Pick <strong>Custom</strong> to enter everything by hand (use the sheet's <em>Edit</em> mode).</p>
+
+  <div class="cm-selects">
+    <label class="cm-field">
+      <span>Department</span>
+      <select data-cm="dept">
+        <option value="" {{#unless deptKey}}selected{{/unless}} disabled>— Select —</option>
+        {{#each departments as |d|}}
+        <option value="{{d.key}}" {{#if d.selected}}selected{{/if}}>{{d.label}}</option>
+        {{/each}}
+      </select>
+    </label>
+
+    {{#if assignments}}
+    <label class="cm-field">
+      <span>Assignment</span>
+      <select data-cm="assignment">
+        <option value="" {{#unless assignment}}selected{{/unless}} disabled>— Select —</option>
+        {{#each assignments as |a|}}
+        <option value="{{a.key}}" {{#if a.selected}}selected{{/if}}>{{a.name}} ({{a.sub}})</option>
+        {{/each}}
+      </select>
+    </label>
+    {{/if}}
+  </div>
+
+  {{#if isCustom}}
+  <div class="cm-panel">
+    <p><strong>Custom character.</strong> Applying this clears the assignment template (Attributes reset to 2/2/2, Skills to none) and removes assignment-granted items. Build the character by hand on the sheet — toggle <em>Edit</em> mode to set the base Attributes and Skills, then add Talents and gear from the compendiums. XP-earned advancement is kept.</p>
+  </div>
+  {{/if}}
+
+  {{#if assignment}}
+  <div class="cm-preview">
+
+    <div class="cm-panel">
+      <div class="cm-panel-head">Attributes <span class="cm-hint">(you may swap two)</span></div>
+      <div class="cm-attrs">
+        {{#each attrRows as |a|}}
+        <label class="cm-attr"><span>{{localize a.label}}</span>
+          <input type="number" min="0" step="1" value="{{a.value}}" data-cm="attr" data-attr="{{a.key}}">
+        </label>
+        {{/each}}
+      </div>
+    </div>
+
+    <div class="cm-panel">
+      <div class="cm-panel-head">
+        Skills <span class="cm-hint">Core: {{localize coreSkillLabel}} — free Training 1 / Focus 1</span>
+        <span class="cm-xp {{#if overspent}}over{{/if}}">XP {{spent}} / {{budget}} &middot; {{remaining}} left</span>
+      </div>
+      <div class="cm-skill-head"><span></span><span>Training</span><span>Focus</span></div>
+      {{#each skillRows as |s|}}
+      <div class="cm-skill-row {{#if s.isCore}}core{{/if}}">
+        <span class="cm-skill-name">{{localize s.label}}{{#if s.isCore}} <em>(core)</em>{{/if}}</span>
+        <span class="cm-stepper">
+          <a data-action="stepSkill" data-skill="{{s.key}}" data-track="training" data-dir="-1">&minus;</a>
+          <span class="cm-pips">{{#each s.trainingPips as |p|}}<span class="pip square {{#if p.filled}}filled{{/if}}"></span>{{/each}}</span>
+          <a data-action="stepSkill" data-skill="{{s.key}}" data-track="training" data-dir="1">+</a>
+        </span>
+        <span class="cm-stepper">
+          <a data-action="stepSkill" data-skill="{{s.key}}" data-track="focus" data-dir="-1">&minus;</a>
+          <span class="cm-pips">{{#each s.focusPips as |p|}}<span class="pip dot {{#if p.filled}}filled{{/if}}"></span>{{/each}}</span>
+          <a data-action="stepSkill" data-skill="{{s.key}}" data-track="focus" data-dir="1">+</a>
+        </span>
+      </div>
+      {{/each}}
+    </div>
+
+    <div class="cm-panel">
+      <div class="cm-panel-head">Talents <span class="cm-hint">Core auto-added &middot; choose 2 ({{chosenCount}}/2)</span></div>
+      <div class="cm-core-talent">★ {{coreTalent}}{{#if coreTalentNote}} <em>({{coreTalentNote}})</em>{{/if}}</div>
+      <div class="cm-talent-list">
+        {{#each optionalTalents as |t|}}
+        <label class="cm-talent"><input type="checkbox" data-cm="talent" data-name="{{t.name}}" {{#if t.chosen}}checked{{/if}}> {{t.name}}</label>
+        {{/each}}
+      </div>
+    </div>
+
+    <div class="cm-panel">
+      <div class="cm-panel-head">Issued Equipment</div>
+      <div class="cm-equip">{{#each equipment as |e|}}<span class="cm-tag">{{e}}</span>{{/each}}</div>
+    </div>
+
+  </div>
+  {{/if}}
+
+  <footer class="cm-footer">
+    <button type="button" data-action="cancel">Cancel</button>
+    {{#if isCustom}}
+    <button type="button" class="cm-apply" data-action="apply"><i class="fa-solid fa-check"></i> Apply Custom</button>
+    {{else}}
+    <button type="button" class="cm-apply" data-action="apply" {{#unless canApply}}disabled{{/unless}}><i class="fa-solid fa-check"></i> Apply Assignment</button>
+    {{/if}}
+  </footer>
+</div>

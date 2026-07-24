@@ -12,7 +12,9 @@ export function preloadTemplates() {
     `${SYS}/actor/team.hbs`,
     // Items
     `${SYS}/item/item-header.hbs`,
-    `${SYS}/item/item-body.hbs`
+    `${SYS}/item/item-body.hbs`,
+    // Apps
+    `${SYS}/apps/charactermancer.hbs`
   ];
 
   // Named partials referenced as {{> laundry.skillRow}} etc.
