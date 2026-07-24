@@ -17,5 +17,9 @@
       <i class="{{t.icon}}"></i><span>{{localize t.label}}</span>
     </a>
     {{/each}}
+    <a class="laundry-tablink edit-toggle {{#if editMode}}active{{/if}}" data-action="toggleEdit"
+       data-tooltip="Override mode: edit the entry-level base template (attributes, skills) instead of XP advancement">
+      <i class="fa-solid {{#if editMode}}fa-unlock{{else}}fa-lock{{/if}}"></i><span>Edit</span>
+    </a>
   </nav>
 </header>

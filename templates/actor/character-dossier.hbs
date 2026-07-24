@@ -1,5 +1,9 @@
 <section class="laundry-tabpage dossier {{tabs.dossier.cssClass}}" data-group="primary" data-tab="dossier">
 
+  {{#if editMode}}
+  <div class="edit-banner"><i class="fa-solid fa-unlock"></i> OVERRIDE MODE — attribute &amp; skill changes edit the <strong>entry-level base</strong>, not XP advancement.</div>
+  {{/if}}
+
   {{!-- ===== IDENTITY + ATTRIBUTES ===== --}}
   <div class="dossier-top">
     <div class="identity-block">
@@ -30,7 +34,11 @@
       {{#each attributes as |a|}}
       <div class="attr-box">
         <a class="attr-label" data-action="rollAttribute" data-attr="{{a.key}}" data-tooltip="Roll {{localize a.label}}">{{localize a.label}}</a>
-        <input type="number" class="attr-value" name="system.attributes.{{a.key}}" value="{{a.value}}" min="0" step="1">
+        <div class="attr-value-row" data-tooltip="Base {{a.entry}} + Earned {{a.earned}}">
+          <a class="attr-step" data-action="stepAttribute" data-attr="{{a.key}}" data-delta="-1" data-tooltip="Decrease">&minus;</a>
+          <span class="attr-value">{{a.value}}</span>
+          <a class="attr-step" data-action="stepAttribute" data-attr="{{a.key}}" data-delta="1" data-tooltip="Increase">+</a>
+        </div>
       </div>
       {{/each}}
     </div>

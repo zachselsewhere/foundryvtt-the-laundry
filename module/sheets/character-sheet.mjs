@@ -5,6 +5,10 @@ const { ActorSheetV2 } = foundry.applications.sheets;
 
 /** The Personnel Record — actor sheet for characters and NPCs. */
 export class LaundryCharacterSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
+  /** Edit/Override mode: when true, attribute/skill controls edit the entry-level
+   *  base template; when false, they edit XP-earned advancement. */
+  editMode = false;
+
   static DEFAULT_OPTIONS = {
     classes: ["the-laundry", "sheet", "actor", "character"],
     position: { width: 860, height: 900 },
@@ -13,6 +17,8 @@ export class LaundryCharacterSheet extends HandlebarsApplicationMixin(ActorSheet
     actions: {
       changeTab: LaundryCharacterSheet.#onChangeTab,
       editImage: LaundryCharacterSheet.#onEditImage,
+      toggleEdit: LaundryCharacterSheet.#onToggleEdit,
+      stepAttribute: LaundryCharacterSheet.#onStepAttribute,
       rollAttribute: LaundryCharacterSheet.#onRollAttribute,
       rollSkill: LaundryCharacterSheet.#onRollSkill,
       adjustSkill: LaundryCharacterSheet.#onAdjustSkill,
@@ -48,11 +54,15 @@ export class LaundryCharacterSheet extends HandlebarsApplicationMixin(ActorSheet
     context.system = sys;
     context.fields = sys.schema.fields;
     context.editable = this.isEditable;
+    context.editMode = this.editMode;
     context.tabs = this.#getTabs();
 
-    // Attributes
+    // Attributes (effective value + layer breakdown for the tooltip)
     context.attributes = Object.keys(LAUNDRY.attributes).map(key => ({
-      key, label: LAUNDRY.attributes[key], value: sys.attributes[key]
+      key, label: LAUNDRY.attributes[key],
+      value: sys.attributes[key],
+      entry: sys.entry.attributes[key],
+      earned: sys.earned.attributes[key]
     }));
 
     // Skills (with Training squares + Focus dots)
@@ -175,12 +185,29 @@ export class LaundryCharacterSheet extends HandlebarsApplicationMixin(ActorSheet
     this.actor.rollSkill(target.dataset.skill);
   }
 
+  static #onToggleEdit() {
+    this.editMode = !this.editMode;
+    this.render();
+  }
+
+  static #onStepAttribute(event, target) {
+    const attr = target.dataset.attr;
+    const delta = Number(target.dataset.delta) || 0;
+    const layer = this.editMode ? "entry" : "earned";
+    const cur = this.actor.system[layer].attributes[attr] ?? 0;
+    this.actor.update({ [`system.${layer}.attributes.${attr}`]: Math.max(0, cur + delta) });
+  }
+
   static #onAdjustSkill(event, target) {
-    const { skill, track, value } = target.dataset;
-    const v = Number(value);
-    const current = this.actor.system.skills[skill][track];
-    const next = current === v ? v - 1 : v; // click the current top pip to decrement
-    this.actor.update({ [`system.skills.${skill}.${track}`]: Math.max(0, next) });
+    const { skill, track } = target.dataset;
+    const v = Number(target.dataset.value);
+    const effective = this.actor.system.skills[skill][track];       // entry + earned
+    const targetN = effective === v ? v - 1 : v;                    // click current top pip to decrement
+    const layer = this.editMode ? "entry" : "earned";
+    const other = this.editMode ? "earned" : "entry";
+    const otherVal = this.actor.system[other].skills[skill][track] ?? 0;
+    const newVal = Math.max(0, targetN - otherVal);                 // set active layer so effective = targetN
+    this.actor.update({ [`system.${layer}.skills.${skill}.${track}`]: newVal });
   }
 
   static #onAdjustInjuries(event, target) {
